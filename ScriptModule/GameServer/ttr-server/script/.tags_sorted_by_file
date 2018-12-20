@@ -1,0 +1,985 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+EnquireIsAgent	do/AgentInfo.lua	/^function EnquireIsAgent(uid, child, typ, preLoginInfo)$/;"	f
+RechargeNotify	do/AgentInfo.lua	/^function RechargeNotify(uid, quantity, money)$/;"	f
+SendCmdToMe	do/AgentInfo.lua	/^function SendCmdToMe(doinfo, data)$/;"	f
+GetPreDiamond	do/DiamondStatistics.lua	/^function GetPreDiamond(num)$/;"	f
+Init	do/DiamondStatistics.lua	/^function Init()$/;"	f
+UpdateDiamondData	do/DiamondStatistics.lua	/^function UpdateDiamondData(typ, num)$/;"	f
+CheckInFreeGameTime	do/FreeGame.lua	/^function CheckInFreeGameTime(lobbyId, uid, gameId, userNbr)$/;"	f
+GetFreeGameInfo	do/FreeGame.lua	/^function GetFreeGameInfo(lobbyId)$/;"	f
+GmSetFreeGame	do/FreeGame.lua	/^function GmSetFreeGame(actName, startTime, endTime)$/;"	f
+GetGameHistory	do/HistoryMgr.lua	/^function GetGameHistory(laccount, curPage)$/;"	f
+GetGameHistoryByGm	do/HistoryMgr.lua	/^function GetGameHistoryByGm(uid, gameId, startTime, endTime, curPage, perPage)$/;"	f
+GetHistroyByGlobalRoomId	do/HistoryMgr.lua	/^function GetHistroyByGlobalRoomId(globalRoomId)$/;"	f
+GetHistroyDetailByGlobalRoomId	do/HistoryMgr.lua	/^function GetHistroyDetailByGlobalRoomId(globalRoomId)$/;"	f
+GetHistroyDetailByGlobalRoomIdGm	do/HistoryMgr.lua	/^function GetHistroyDetailByGlobalRoomIdGm(globalRoomId)$/;"	f
+CheckInPointRankTime	do/PointRank.lua	/^function CheckInPointRankTime()$/;"	f
+CheckSetUserDayPoint	do/PointRank.lua	/^function CheckSetUserDayPoint(globalRoomData)$/;"	f
+ClockCreatePointRank	do/PointRank.lua	/^function ClockCreatePointRank()$/;"	f
+ConstructPonitRankInfo	do/PointRank.lua	/^function ConstructPonitRankInfo(info)$/;"	f
+GetPointRankInfo	do/PointRank.lua	/^function GetPointRankInfo()$/;"	f
+GetTodayPointRank	do/PointRank.lua	/^function GetTodayPointRank(laccount)$/;"	f
+GetYesterdayPointRank	do/PointRank.lua	/^function GetYesterdayPointRank(laccount)$/;"	f
+GmSetPointRankInfo	do/PointRank.lua	/^function GmSetPointRankInfo(startTime, endTime)$/;"	f
+ApplyContinuePlay	do/RoomInfo.lua	/^function ApplyContinuePlay(laccount)$/;"	f
+CheckCreateRoomPara	do/RoomInfo.lua	/^function CheckCreateRoomPara(cmd,laccount)$/;"	f
+CheckMapGameInfoList	do/RoomInfo.lua	/^function CheckMapGameInfoList(mapGameInfoList, gameId, typ)$/;"	f
+CheckOtherUserDiamond	do/RoomInfo.lua	/^function CheckOtherUserDiamond(room, laccount)$/;"	f
+CheckPreLogin	do/RoomInfo.lua	/^function CheckPreLogin(uid, laccount)$/;"	f
+CheckSendCreateTable	do/RoomInfo.lua	/^function CheckSendCreateTable(laccount, lobbyId, md5Code)$/;"	f
+CheckSendDiamondChange	do/RoomInfo.lua	/^function CheckSendDiamondChange(uid, diamond, change, card, cardChange)$/;"	f
+CreateRoom	do/RoomInfo.lua	/^function CreateRoom(cmd, uid, isFree)$/;"	f
+CreateRoomCache	do/RoomInfo.lua	/^function CreateRoomCache()$/;"	f
+DeductRoomCharge	do/RoomInfo.lua	/^function DeductRoomCharge(room)$/;"	f
+EnterRoom	do/RoomInfo.lua	/^function EnterRoom(laccount, roomId)$/;"	f
+FillOtherToCreateRoomData	do/RoomInfo.lua	/^function FillOtherToCreateRoomData(data, typ, lobbyTableInfo, level)$/;"	f
+GetConnectGameInfo	do/RoomInfo.lua	/^function GetConnectGameInfo()$/;"	f
+GetGlobalRoomData	do/RoomInfo.lua	/^function GetGlobalRoomData(globalRoomId)$/;"	f
+GetGlobalRoomId	do/RoomInfo.lua	/^function GetGlobalRoomId()$/;"	f
+GetLastCreate	do/RoomInfo.lua	/^function GetLastCreate(lobbyId, uid)$/;"	f
+GetNormalGameList	do/RoomInfo.lua	/^function GetNormalGameList(lobbyId, typ)$/;"	f
+GetRandomRoomId	do/RoomInfo.lua	/^function GetRandomRoomId()$/;"	f
+GetRoomByLobbyIdUid	do/RoomInfo.lua	/^function GetRoomByLobbyIdUid(lobbyId, uid)$/;"	f
+GetRoomDataForZone	do/RoomInfo.lua	/^function GetRoomDataForZone(roomData)$/;"	f
+GetRoomInfoById	do/RoomInfo.lua	/^function GetRoomInfoById(roomid)$/;"	f
+GetUserDataForZone	do/RoomInfo.lua	/^function GetUserDataForZone(uid, data)$/;"	f
+InitGlobalRoomId	do/RoomInfo.lua	/^function InitGlobalRoomId()$/;"	f
+InitTable	do/RoomInfo.lua	/^function InitTable()$/;"	f
+IntoPracticeRoom	do/RoomInfo.lua	/^function IntoPracticeRoom(laccount, lobbyId, gameId)$/;"	f
+RemoveGlobalRoomData	do/RoomInfo.lua	/^function RemoveGlobalRoomData(globalRoomData)$/;"	f
+RemoveMapUid2RommData	do/RoomInfo.lua	/^function RemoveMapUid2RommData(lobbyId, uid)$/;"	f
+RemoveRoom	do/RoomInfo.lua	/^function RemoveRoom(roomId, hostTip)$/;"	f
+ReturnRoom	do/RoomInfo.lua	/^function ReturnRoom(laccount, lobbyId)$/;"	f
+RoomClass:Destroy	do/RoomInfo.lua	/^function RoomClass:Destroy()$/;"	f
+RoomClass:EventEmptyTimeOut	do/RoomInfo.lua	/^function RoomClass:EventEmptyTimeOut(me)$/;"	f
+RoomClass:GetId	do/RoomInfo.lua	/^function RoomClass:GetId()$/;"	f
+RoomClass:GetName	do/RoomInfo.lua	/^function RoomClass:GetName()$/;"	f
+RoomClass:Loop	do/RoomInfo.lua	/^function RoomClass:Loop(me)$/;"	f
+RoomClass:Save	do/RoomInfo.lua	/^function RoomClass:Save()$/;"	f
+RoomClass:TimerSaveData	do/RoomInfo.lua	/^function RoomClass:TimerSaveData(me)$/;"	f
+SaveAllRoomData	do/RoomInfo.lua	/^function SaveAllRoomData()$/;"	f
+SaveGlobalRoomData	do/RoomInfo.lua	/^function SaveGlobalRoomData(globalRoomData)$/;"	f
+SaveHostTip	do/RoomInfo.lua	/^function SaveHostTip(globalRoomData, hostTip)$/;"	f
+SendCmdToUser	do/RoomInfo.lua	/^function SendCmdToUser(doinfo, data, laccount, noLog)$/;"	f
+SendDiamondChange	do/RoomInfo.lua	/^function SendDiamondChange(zoneInfo, uid, diamond, change, zonetask, card, cardChange)$/;"	f
+SendFailToUser	do/RoomInfo.lua	/^function SendFailToUser(msg, laccount, pos)$/;"	f
+SendRoomInfoToMonitor	do/RoomInfo.lua	/^function SendRoomInfoToMonitor(globalRoomData)$/;"	f
+SetMapUid2RommData	do/RoomInfo.lua	/^function SetMapUid2RommData(lobbyId, uid, room)$/;"	f
+WinnerDeductRoomCharge	do/RoomInfo.lua	/^function WinnerDeductRoomCharge(room)$/;"	f
+ConstructShareInfo	do/ShareMgr.lua	/^function ConstructShareInfo(room)$/;"	f
+GetShareCtrInfo	do/ShareMgr.lua	/^function GetShareCtrInfo()$/;"	f
+GetShareInfoByRoom	do/ShareMgr.lua	/^function GetShareInfoByRoom(room, userData, uid, lobbyId)$/;"	f
+GetShareTimes	do/ShareMgr.lua	/^function GetShareTimes(userdata)$/;"	f
+GmSetShareCtrInfo	do/ShareMgr.lua	/^function GmSetShareCtrInfo(startTime, endTime)$/;"	f
+InitMapConstructShareInfo	do/ShareMgr.lua	/^function InitMapConstructShareInfo()$/;"	f
+MapConstructShareInfo[177] 	do/ShareMgr.lua	/^	MapConstructShareInfo[177] = function (room)$/;"	f
+MapConstructShareInfo[197] 	do/ShareMgr.lua	/^	MapConstructShareInfo[197] = function (room)$/;"	f
+ShareGetReword	do/ShareMgr.lua	/^function ShareGetReword(laccount)$/;"	f
+AddMarketingChild	do/UserInfo.lua	/^function AddMarketingChild(parent, parentUserData, child, userData)$/;"	f
+AddUserPlayData	do/UserInfo.lua	/^function AddUserPlayData(uid, room)$/;"	f
+AddUserPlayNumData	do/UserInfo.lua	/^function AddUserPlayNumData(uid, addnum, lobbyId)$/;"	f
+ChangeRoomCard	do/UserInfo.lua	/^function ChangeRoomCard(uid, type, num, statistics, desc)$/;"	f
+ChangeRoomDiamond	do/UserInfo.lua	/^function ChangeRoomDiamond(uid, type, num, statistics, desc, changeType)$/;"	f
+CheckCreateInviteRankData	do/UserInfo.lua	/^function CheckCreateInviteRankData(uid, userdata)$/;"	f
+CheckRewardTodayFirstPlay	do/UserInfo.lua	/^function CheckRewardTodayFirstPlay(globalRoomData)$/;"	f
+CheckRoomCost	do/UserInfo.lua	/^function CheckRoomCost(uid, userNbr, gameNbr, payType, hasDecrease, owner, lobbyId)$/;"	f
+CheckSignIn	do/UserInfo.lua	/^function CheckSignIn(lobbyId, userData, data)$/;"	f
+CommonChangeUserCard	do/UserInfo.lua	/^function CommonChangeUserCard(uid, typ, num, statistics, desc)$/;"	f
+CommonChangeUserDiamond	do/UserInfo.lua	/^function CommonChangeUserDiamond(uid, typ, num, statistics, desc, changeType)$/;"	f
+CreateUserData	do/UserInfo.lua	/^function CreateUserData(uid, parent, lobbyId, parentIsAgent)$/;"	f
+CreateUserMarketData	do/UserInfo.lua	/^function CreateUserMarketData(userdata, parent, parentIsAgent) $/;"	f
+CreateUserVipData	do/UserInfo.lua	/^function CreateUserVipData(userdata) $/;"	f
+GetInviteReward	do/UserInfo.lua	/^function GetInviteReward(userData)$/;"	f
+GetMarketingListById	do/UserInfo.lua	/^function GetMarketingListById(uid)$/;"	f
+GetUserDataBaseInfo	do/UserInfo.lua	/^function GetUserDataBaseInfo(data)$/;"	f
+GetUserDataById	do/UserInfo.lua	/^function GetUserDataById(uid)$/;"	f
+NotifyPreLoginInfo	do/UserInfo.lua	/^function NotifyPreLoginInfo(cmd, parentIsAgent)$/;"	f
+RoomCardGet	do/UserInfo.lua	/^function RoomCardGet(uid)$/;"	f
+RoomDiamondGet	do/UserInfo.lua	/^function RoomDiamondGet(uid)$/;"	f
+SaveUserData	do/UserInfo.lua	/^function SaveUserData(userdata)$/;"	f
+SdkReward	do/UserInfo.lua	/^function SdkReward(uid, item)$/;"	f
+SendParentRelationshipCreate	do/UserInfo.lua	/^function SendParentRelationshipCreate(parent, child)$/;"	f
+UserRegister	do/UserInfo.lua	/^function UserRegister(uid, lobbyId)$/;"	f
+CreateZone	do/ZoneInfo.lua	/^function CreateZone(zonetask)$/;"	f
+GetBestZoneId	do/ZoneInfo.lua	/^function GetBestZoneId(mapGameInfoList, gameId, isPractice)$/;"	f
+GetZoneInfoByGameIdZoneId	do/ZoneInfo.lua	/^function GetZoneInfoByGameIdZoneId(gameid,zoneid)$/;"	f
+Zone.zone_change_props 	do/ZoneInfo.lua	/^Zone.zone_change_props = function(cmd,zonetask)$/;"	f
+Zone.zone_connect 	do/ZoneInfo.lua	/^Zone.zone_connect = function(cmd,zonetask)$/;"	f
+Zone.zone_disconnect 	do/ZoneInfo.lua	/^Zone.zone_disconnect = function(cmd,zonetask)$/;"	f
+ZoneClass:Destroy	do/ZoneInfo.lua	/^function ZoneClass:Destroy()$/;"	f
+ZoneClass:GetId	do/ZoneInfo.lua	/^function ZoneClass:GetId()$/;"	f
+ZoneClass:GetName	do/ZoneInfo.lua	/^function ZoneClass:GetName()$/;"	f
+ZoneClass:SendCmdToMe	do/ZoneInfo.lua	/^function ZoneClass:SendCmdToMe(doinfo, data)$/;"	f
+Do.dbready 	do/dbready.lua	/^Do.dbready = function()$/;"	f
+initinvitepara 	do/dbready.lua	/^initinvitepara = function()$/;"	f
+CheckVipInfo	do/exchange/exchangemgr.lua	/^function CheckVipInfo(exchangeInfo, uid, lobbyId)$/;"	f
+SendExchangeInfoToMonitor	do/exchange/exchangemgr.lua	/^function SendExchangeInfoToMonitor(exchangeInfo)$/;"	f
+TryUpdateTryRedPaperTime	do/exchange/exchangemgr.lua	/^function TryUpdateTryRedPaperTime(userInfo)$/;"	f
+createExchangeOrder	do/exchange/exchangemgr.lua	/^function createExchangeOrder(uid, exchangeOrder, id, chips, flag)$/;"	f
+exchangeKeyGet	do/exchange/exchangemgr.lua	/^function exchangeKeyGet(exchangeChips)$/;"	f
+exchangeRecordGetByExchangeOrder	do/exchange/exchangemgr.lua	/^function exchangeRecordGetByExchangeOrder(exchangeOrder)$/;"	f
+receiveExchangeOrder	do/exchange/exchangemgr.lua	/^function receiveExchangeOrder(dstuid, exchangeInfo)$/;"	f
+Zone.CmdEnquireIsAgentCmd_SC 	do/message/MsgAgentToLobby.lua	/^Zone.CmdEnquireIsAgentCmd_SC = function(cmd,zonetask)$/;"	f
+Zone.CmdGetBasePlayerInfoCmd_C	do/message/MsgAgentToLobby.lua	/^Zone.CmdGetBasePlayerInfoCmd_C= function(cmd,zonetask)$/;"	f
+Zone.CmdParentRelationshipCreateNotity_C 	do/message/MsgAgentToLobby.lua	/^Zone.CmdParentRelationshipCreateNotity_C = function(cmd,zonetask)$/;"	f
+Zone.CmdRechargeCmd_C 	do/message/MsgAgentToLobby.lua	/^Zone.CmdRechargeCmd_C = function(cmd,zonetask)$/;"	f
+Zone.CmdRechargeNotifyCmd_C 	do/message/MsgAgentToLobby.lua	/^Zone.CmdRechargeNotifyCmd_C = function(cmd,zonetask)$/;"	f
+Zone.CmdRequestChildListCmd_C 	do/message/MsgAgentToLobby.lua	/^Zone.CmdRequestChildListCmd_C = function(cmd,zonetask)$/;"	f
+Zone.CmdChangeUserNbrLobbyCmd_CS	do/message/MsgChessToLobby.lua	/^Zone.CmdChangeUserNbrLobbyCmd_CS= function(cmd,zonetask)$/;"	f
+Zone.CmdCreateRoomRoomLobbyCmd_C	do/message/MsgChessToLobby.lua	/^Zone.CmdCreateRoomRoomLobbyCmd_C= function(cmd,zonetask)$/;"	f
+Zone.CmdSendEnterRoomLobbyCmd_C	do/message/MsgChessToLobby.lua	/^Zone.CmdSendEnterRoomLobbyCmd_C= function(cmd,zonetask)$/;"	f
+Zone.CmdSendLeaveRoomLobbyCmd_C	do/message/MsgChessToLobby.lua	/^Zone.CmdSendLeaveRoomLobbyCmd_C= function(cmd,zonetask)$/;"	f
+Zone.CmdSendRemoveRoomLobbyCmd_C	do/message/MsgChessToLobby.lua	/^Zone.CmdSendRemoveRoomLobbyCmd_C= function(cmd,zonetask)$/;"	f
+Zone.CmdUserDiamondWinLobbyCmd_CS	do/message/MsgChessToLobby.lua	/^Zone.CmdUserDiamondWinLobbyCmd_CS= function(cmd,zonetask)$/;"	f
+Zone.CmdUserRoundResultLobbyCmd_C	do/message/MsgChessToLobby.lua	/^Zone.CmdUserRoundResultLobbyCmd_C= function(cmd,zonetask)$/;"	f
+Net.CmdExchangeChipsReceive_CS 	do/message/MsgExchange.lua	/^Net.CmdExchangeChipsReceive_CS = function(cmd, laccount)$/;"	f
+Net.CmdExchangeKeyGet_CS 	do/message/MsgExchange.lua	/^Net.CmdExchangeKeyGet_CS = function(cmd, laccount)$/;"	f
+Net.CmdExchangeRecordGet_CS 	do/message/MsgExchange.lua	/^Net.CmdExchangeRecordGet_CS = function(cmd, laccount)$/;"	f
+GetRankInfo 	do/message/MsgGm.lua	/^GetRankInfo = function()$/;"	f
+GmSvr.CmdGetInviteListCmd_CS	do/message/MsgGm.lua	/^GmSvr.CmdGetInviteListCmd_CS= function(cmd, laccount)$/;"	f
+GmSvr.PmdModifyPlayNum 	do/message/MsgGm.lua	/^GmSvr.PmdModifyPlayNum = function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestInviteRankGmUserPmd_CS 	do/message/MsgGm.lua	/^GmSvr.PmdRequestInviteRankGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdUpdataRankProps 	do/message/MsgGm.lua	/^GmSvr.PmdUpdataRankProps = function(cmd, laccount)$/;"	f
+Net.CmdGetGameDataHistoryCmd_C 	do/message/MsgHistroy.lua	/^Net.CmdGetGameDataHistoryCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdGetGameDetailHistoryCmd_C 	do/message/MsgHistroy.lua	/^Net.CmdGetGameDetailHistoryCmd_C = function(cmd, laccount)$/;"	f
+LoginClientTask.NotifyPreLoginInfoSdkPmd_CS	do/message/MsgLobby.lua	/^LoginClientTask.NotifyPreLoginInfoSdkPmd_CS= function(task, cmd)$/;"	f
+LoginClientTask.RequestModifyAccountInfoLoginSmd_CS	do/message/MsgLobby.lua	/^LoginClientTask.RequestModifyAccountInfoLoginSmd_CS= function(task, cmd)$/;"	f
+LoginClientTask.RequestQrcodeURLSdkPmd_CS	do/message/MsgLobby.lua	/^LoginClientTask.RequestQrcodeURLSdkPmd_CS= function(task, cmd)$/;"	f
+Net.CmdChangeParentCmd_C 	do/message/MsgLobby.lua	/^Net.CmdChangeParentCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdGetDayPointRankCmd_C 	do/message/MsgLobby.lua	/^Net.CmdGetDayPointRankCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdGetExtendsion2DCodeCmd_C 	do/message/MsgLobby.lua	/^Net.CmdGetExtendsion2DCodeCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdGetInviteListCmd_CS 	do/message/MsgLobby.lua	/^Net.CmdGetInviteListCmd_CS = function(cmd, laccount)$/;"	f
+Net.CmdGetInviteRewardCmd_C 	do/message/MsgLobby.lua	/^Net.CmdGetInviteRewardCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdGetRegisterRewardCmd_C 	do/message/MsgLobby.lua	/^Net.CmdGetRegisterRewardCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdReadDisclaimerLobbyCmd_C 	do/message/MsgLobby.lua	/^Net.CmdReadDisclaimerLobbyCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdSendSuonaLobbyCmd_C 	do/message/MsgLobby.lua	/^Net.CmdSendSuonaLobbyCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdShareLobbyCmd_C 	do/message/MsgLobby.lua	/^Net.CmdShareLobbyCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdUserInfoGetLobbyCmd_C 	do/message/MsgLobby.lua	/^Net.CmdUserInfoGetLobbyCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdUserInfoSynLobbyCmd_C 	do/message/MsgLobby.lua	/^Net.CmdUserInfoSynLobbyCmd_C = function(cmd, laccount)$/;"	f
+Net.PmdOnlineStateLoginUserPmd_CS 	do/message/MsgLobby.lua	/^Net.PmdOnlineStateLoginUserPmd_CS = function(cmd, laccount)$/;"	f
+Net.CmdApplyContinuePlayRoomCmd_C 	do/message/MsgRoom.lua	/^Net.CmdApplyContinuePlayRoomCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdCreateRoomCmd_C 	do/message/MsgRoom.lua	/^Net.CmdCreateRoomCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdEnterRoomCmd_C 	do/message/MsgRoom.lua	/^Net.CmdEnterRoomCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdGetNormalGameListRoomCmd_C 	do/message/MsgRoom.lua	/^Net.CmdGetNormalGameListRoomCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdGetPracticeGameInfoRoomCmd_C 	do/message/MsgRoom.lua	/^Net.CmdGetPracticeGameInfoRoomCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdRequestRecordLobbyCmd_C 	do/message/MsgRoom.lua	/^Net.CmdRequestRecordLobbyCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdReturnRoomCmd_C 	do/message/MsgRoom.lua	/^Net.CmdReturnRoomCmd_C = function(cmd, laccount)$/;"	f
+LoginClientTask.DiamondConsumSdkPmd_CS 	do/message/MsgSdkToLobby.lua	/^LoginClientTask.DiamondConsumSdkPmd_CS = function(task, cmd)$/;"	f
+LoginClientTask.RewardUserSdkPmd_CS 	do/message/MsgSdkToLobby.lua	/^LoginClientTask.RewardUserSdkPmd_CS = function(task, cmd)$/;"	f
+GoodSummary	do/recharge/chessmsgplatsdk.lua	/^function GoodSummary(goodId, goodNbr, summary)$/;"	f
+LoginClientTask.CreatePlatOrderReturnSdkPmd_S 	do/recharge/chessmsgplatsdk.lua	/^LoginClientTask.CreatePlatOrderReturnSdkPmd_S = function(task, cmd)$/;"	f
+LoginClientTask.NotifyRechargeRequestSdkPmd_S 	do/recharge/chessmsgplatsdk.lua	/^LoginClientTask.NotifyRechargeRequestSdkPmd_S = function(task, cmd)$/;"	f
+RechargeReturnOk	do/recharge/chessmsgplatsdk.lua	/^function RechargeReturnOk(uid, rmb, platId, gameOrder, platOrder, goodId, goodNum)$/;"	f
+UpdateVipInfo	do/recharge/chessmsgplatsdk.lua	/^function UpdateVipInfo(uid, num, gameOrder, rmb)$/;"	f
+UserRechargeCreateOrderLog	do/recharge/chessmsgplatsdk.lua	/^function UserRechargeCreateOrderLog(gameOrder, platOrder, uid, payPlatId, rmb, marks)$/;"	f
+UserRechargeOkLog	do/recharge/chessmsgplatsdk.lua	/^function UserRechargeOkLog(gameOrder, platOrder, uid, rmb, flag)$/;"	f
+Net.PmdCreatePlatOrderRequestSdkPmd_C 	do/recharge/chessmsgrecharge.lua	/^Net.PmdCreatePlatOrderRequestSdkPmd_C = function(cmd, laccount)$/;"	f
+Net.PmdRechargeQueryRequestIOSSdkPmd_C 	do/recharge/chessmsgrecharge.lua	/^Net.PmdRechargeQueryRequestIOSSdkPmd_C = function(cmd, laccount)$/;"	f
+CmdCreatePlatOrderRequest	do/recharge/chessrechargemgr.lua	/^function CmdCreatePlatOrderRequest(laccount, rev)$/;"	f
+CmdUserRechargeNumberGetByUid	do/recharge/chessrechargemgr.lua	/^function CmdUserRechargeNumberGetByUid(uid, timeStamp)$/;"	f
+CmdUserSumRechargeGetByUid	do/recharge/chessrechargemgr.lua	/^function CmdUserSumRechargeGetByUid(uid)$/;"	f
+CmdUserSumRechargeGetByUid	do/recharge/chessrechargemgr.lua	/^function CmdUserSumRechargeGetByUid(uid, timestamp1, timestamp2)$/;"	f
+CreateGameOrder	do/recharge/chessrechargemgr.lua	/^function CreateGameOrder(uid, lobbyId)$/;"	f
+Init	do/recharge/chessrechargemgr.lua	/^function Init()$/;"	f
+SendRankListToGm 	event/server.lua	/^SendRankListToGm = function()$/;"	f
+StartOver	event/server.lua	/^function StartOver()$/;"	f
+InitTimer	event/timer.lua	/^function InitTimer()$/;"	f
+ProFi:checkMemory	gxlua/ProFi.lua	/^function ProFi:checkMemory( interval, note )$/;"	f
+ProFi:createFuncReport	gxlua/ProFi.lua	/^function ProFi:createFuncReport( funcInfo )$/;"	f
+ProFi:doInspection	gxlua/ProFi.lua	/^function ProFi:doInspection( inspect, funcReport )$/;"	f
+ProFi:formatMemoryReportWithFormatter	gxlua/ProFi.lua	/^function ProFi:formatMemoryReportWithFormatter( memoryReport, formatter )$/;"	f
+ProFi:getFuncReport	gxlua/ProFi.lua	/^function ProFi:getFuncReport( funcInfo )$/;"	f
+ProFi:getInspectionWithKeyFromInspections	gxlua/ProFi.lua	/^function ProFi:getInspectionWithKeyFromInspections( key, inspections )$/;"	f
+ProFi:getInspectionsFromReport	gxlua/ProFi.lua	/^function ProFi:getInspectionsFromReport( funcReport )$/;"	f
+ProFi:getTitleFromFuncInfo	gxlua/ProFi.lua	/^function ProFi:getTitleFromFuncInfo( funcInfo )$/;"	f
+ProFi:onFunctionCall	gxlua/ProFi.lua	/^function ProFi:onFunctionCall( funcInfo )$/;"	f
+ProFi:onFunctionReturn	gxlua/ProFi.lua	/^function ProFi:onFunctionReturn( funcInfo )$/;"	f
+ProFi:reset	gxlua/ProFi.lua	/^function ProFi:reset()$/;"	f
+ProFi:resetReports	gxlua/ProFi.lua	/^function ProFi:resetReports( reports )$/;"	f
+ProFi:setGetTimeMethod	gxlua/ProFi.lua	/^function ProFi:setGetTimeMethod( getTimeMethod )$/;"	f
+ProFi:setHighestMemoryReport	gxlua/ProFi.lua	/^function ProFi:setHighestMemoryReport( memoryReport )$/;"	f
+ProFi:setHookCount	gxlua/ProFi.lua	/^function ProFi:setHookCount( hookCount )$/;"	f
+ProFi:setInspect	gxlua/ProFi.lua	/^function ProFi:setInspect( methodName, levels )$/;"	f
+ProFi:setLowestMemoryReport	gxlua/ProFi.lua	/^function ProFi:setLowestMemoryReport( memoryReport )$/;"	f
+ProFi:setSortMethod	gxlua/ProFi.lua	/^function ProFi:setSortMethod( sortType )$/;"	f
+ProFi:shouldInspect	gxlua/ProFi.lua	/^function ProFi:shouldInspect( funcInfo )$/;"	f
+ProFi:shouldReturn	gxlua/ProFi.lua	/^function ProFi:shouldReturn( )$/;"	f
+ProFi:sortInspectionsIntoList	gxlua/ProFi.lua	/^function ProFi:sortInspectionsIntoList( inspections )$/;"	f
+ProFi:sortReportsWithSortMethod	gxlua/ProFi.lua	/^function ProFi:sortReportsWithSortMethod( reports, sortMethod )$/;"	f
+ProFi:start	gxlua/ProFi.lua	/^function ProFi:start( param )$/;"	f
+ProFi:startHooks	gxlua/ProFi.lua	/^function ProFi:startHooks()$/;"	f
+ProFi:stop	gxlua/ProFi.lua	/^function ProFi:stop()$/;"	f
+ProFi:stopHooks	gxlua/ProFi.lua	/^function ProFi:stopHooks()$/;"	f
+ProFi:writeBannerToFile	gxlua/ProFi.lua	/^function ProFi:writeBannerToFile( file )$/;"	f
+ProFi:writeHighestMemoryReportToFile	gxlua/ProFi.lua	/^function ProFi:writeHighestMemoryReportToFile( file )$/;"	f
+ProFi:writeInpsectionsToFile	gxlua/ProFi.lua	/^function ProFi:writeInpsectionsToFile( inspections, file )$/;"	f
+ProFi:writeLowestMemoryReportToFile	gxlua/ProFi.lua	/^function ProFi:writeLowestMemoryReportToFile( file )$/;"	f
+ProFi:writeMemoryReportsToFile	gxlua/ProFi.lua	/^function ProFi:writeMemoryReportsToFile( reports, file )$/;"	f
+ProFi:writeProfilingReportsToFile	gxlua/ProFi.lua	/^function ProFi:writeProfilingReportsToFile( reports, file )$/;"	f
+ProFi:writeReport	gxlua/ProFi.lua	/^function ProFi:writeReport( filename )$/;"	f
+ProFi:writeReportsToFilename	gxlua/ProFi.lua	/^function ProFi:writeReportsToFilename( filename )$/;"	f
+onDebugHook 	gxlua/ProFi.lua	/^onDebugHook = function( hookType )$/;"	f
+sortByCallCount 	gxlua/ProFi.lua	/^sortByCallCount = function( a, b )$/;"	f
+sortByDurationDesc 	gxlua/ProFi.lua	/^sortByDurationDesc = function( a, b )$/;"	f
+CreateClass	gxlua/class.lua	/^function CreateClass(name)$/;"	f
+GetClassName	gxlua/class.lua	/^function GetClassName(name)$/;"	f
+class:Debug	gxlua/class.lua	/^	function class:Debug(...)$/;"	f
+class:Error	gxlua/class.lua	/^	function class:Error(...)$/;"	f
+class:GetLogPrefix	gxlua/class.lua	/^	function class:GetLogPrefix()$/;"	f
+class:Info	gxlua/class.lua	/^	function class:Info(...)$/;"	f
+class:New	gxlua/class.lua	/^	function class:New(initclass)$/;"	f
+class:SetClassName	gxlua/class.lua	/^	function class:SetClassName(cname)$/;"	f
+class:Warn	gxlua/class.lua	/^	function class:Warn(...)$/;"	f
+dump	gxlua/extend.lua	/^	local function dump(data, prefix)$/;"	f
+local _random 	gxlua/extend.lua	/^	local _random = function(m, n)$/;"	f
+math.random 	gxlua/extend.lua	/^math.random = function(m, n)$/;"	f
+math.shuffle 	gxlua/extend.lua	/^math.shuffle = function(array)$/;"	f
+string.padleft 	gxlua/extend.lua	/^string.padleft = function(str, totalWidth, paddingChar)$/;"	f
+string.padright 	gxlua/extend.lua	/^string.padright = function(str, totalWidth, paddingChar)$/;"	f
+string.split 	gxlua/extend.lua	/^string.split = function(szFullString, szSeparator)$/;"	f
+string.tohex 	gxlua/extend.lua	/^string.tohex = function(str, spacer)$/;"	f
+string.trim 	gxlua/extend.lua	/^string.trim = function(str)$/;"	f
+string.trimbegin 	gxlua/extend.lua	/^string.trimbegin = function(str)$/;"	f
+string.trimend 	gxlua/extend.lua	/^string.trimend = function(str)$/;"	f
+table.clone 	gxlua/extend.lua	/^table.clone = function(t)$/;"	f
+table.empty 	gxlua/extend.lua	/^table.empty = function(tbl)$/;"	f
+table.extend 	gxlua/extend.lua	/^table.extend = function(base, delta)$/;"	f
+table.find 	gxlua/extend.lua	/^table.find = function(this, value)$/;"	f
+table.len 	gxlua/extend.lua	/^table.len = function(tbl)$/;"	f
+table.merge 	gxlua/extend.lua	/^table.merge = function(base, delta)$/;"	f
+table.reset 	gxlua/extend.lua	/^table.reset = function(t)$/;"	f
+table.reverse 	gxlua/extend.lua	/^table.reverse = function(tab)$/;"	f
+table.slice 	gxlua/extend.lua	/^table.slice = function(values,i1,i2)$/;"	f
+table.tostring 	gxlua/extend.lua	/^table.tostring = function(data, _indent)$/;"	f
+unilight.getmsgname 	gxlua/messagefacotry.lua	/^unilight.getmsgname = function(bycmd, byparam)$/;"	f
+unilight.getmsgnu 	gxlua/messagefacotry.lua	/^unilight.getmsgnu = function(name)$/;"	f
+unilight.registermsgcmd 	gxlua/messagefacotry.lua	/^unilight.registermsgcmd = function(name, bycmd, byparam)$/;"	f
+unilight.registerpbcmd 	gxlua/messagefacotry.lua	/^unilight.registerpbcmd = function(pbdata, bycmd)$/;"	f
+initpbfile	gxlua/proto.lua	/^function initpbfile(pbname)$/;"	f
+registepbdir	gxlua/proto.lua	/^function registepbdir(pbdir, headname, key)$/;"	f
+registerpbfile	gxlua/proto.lua	/^function registerpbfile(pbname, bycmd)$/;"	f
+_R_meta:__index	gxlua/protobuf.lua	/^function _R_meta:__index(key)$/;"	f
+__index 	gxlua/protobuf.lua	/^	__index = function(self, key)$/;"	f
+__index 	gxlua/protobuf.lua	/^	__index = function(t, key)$/;"	f
+_decode_type_meta:__index	gxlua/protobuf.lua	/^function _decode_type_meta:__index(key)$/;"	f
+_encode_type_meta:__index	gxlua/protobuf.lua	/^function _encode_type_meta:__index(key)$/;"	f
+_pattern_create	gxlua/protobuf.lua	/^local function _pattern_create(pattern)$/;"	f
+_reader:bool	gxlua/protobuf.lua	/^function _reader:bool(key)$/;"	f
+_reader:bool_repeated	gxlua/protobuf.lua	/^function _reader:bool_repeated(key)$/;"	f
+_reader:int	gxlua/protobuf.lua	/^function _reader:int(key)$/;"	f
+_reader:int32	gxlua/protobuf.lua	/^function _reader:int32(key)$/;"	f
+_reader:int32_repeated	gxlua/protobuf.lua	/^function _reader:int32_repeated(key)$/;"	f
+_reader:int52	gxlua/protobuf.lua	/^function _reader:int52(key)$/;"	f
+_reader:int52_repeated	gxlua/protobuf.lua	/^function _reader:int52_repeated(key)$/;"	f
+_reader:int64	gxlua/protobuf.lua	/^function _reader:int64(key)$/;"	f
+_reader:int64_repeated	gxlua/protobuf.lua	/^function _reader:int64_repeated(key)$/;"	f
+_reader:int_repeated	gxlua/protobuf.lua	/^function _reader:int_repeated(key)$/;"	f
+_reader:message	gxlua/protobuf.lua	/^function _reader:message(key, message_type)$/;"	f
+_reader:message_repeated	gxlua/protobuf.lua	/^function _reader:message_repeated(key, message_type)$/;"	f
+_reader:real	gxlua/protobuf.lua	/^function _reader:real(key)$/;"	f
+_reader:real_repeated	gxlua/protobuf.lua	/^function _reader:real_repeated(key)$/;"	f
+_reader:string	gxlua/protobuf.lua	/^function _reader:string(key)$/;"	f
+_reader:string_repeated	gxlua/protobuf.lua	/^function _reader:string_repeated(key)$/;"	f
+_reader:uint52	gxlua/protobuf.lua	/^function _reader:uint52(key)$/;"	f
+_reader:uint52_repeated	gxlua/protobuf.lua	/^function _reader:uint52_repeated(key)$/;"	f
+_reader[10] 	gxlua/protobuf.lua	/^_reader[10] = function(msg) return _reader.int52 end$/;"	f
+_reader[11] 	gxlua/protobuf.lua	/^_reader[11] = function(msg) return _reader.uint52 end$/;"	f
+_reader[128+10] 	gxlua/protobuf.lua	/^_reader[128+10] = function(msg) return _reader.int52_repeated end$/;"	f
+_reader[128+11] 	gxlua/protobuf.lua	/^_reader[128+11] = function(msg) return _reader.uint52_repeated end$/;"	f
+_reader[128+1] 	gxlua/protobuf.lua	/^_reader[128+1] = function(msg) return _reader.int_repeated end$/;"	f
+_reader[128+2] 	gxlua/protobuf.lua	/^_reader[128+2] = function(msg) return _reader.real_repeated end$/;"	f
+_reader[128+3] 	gxlua/protobuf.lua	/^_reader[128+3] = function(msg) return _reader.bool_repeated end$/;"	f
+_reader[128+4] 	gxlua/protobuf.lua	/^_reader[128+4] = function(msg) return _reader.string_repeated end$/;"	f
+_reader[128+5] 	gxlua/protobuf.lua	/^_reader[128+5] = function(msg) return _reader.string_repeated end$/;"	f
+_reader[128+6] 	gxlua/protobuf.lua	/^_reader[128+6] = function(msg)$/;"	f
+_reader[128+7] 	gxlua/protobuf.lua	/^_reader[128+7] = function(msg) return _reader.int64_repeated end$/;"	f
+_reader[128+8] 	gxlua/protobuf.lua	/^_reader[128+8] = function(msg) return _reader.int32_repeated end$/;"	f
+_reader[1] 	gxlua/protobuf.lua	/^_reader[1] = function(msg) return _reader.int end$/;"	f
+_reader[2] 	gxlua/protobuf.lua	/^_reader[2] = function(msg) return _reader.real end$/;"	f
+_reader[3] 	gxlua/protobuf.lua	/^_reader[3] = function(msg) return _reader.bool end$/;"	f
+_reader[4] 	gxlua/protobuf.lua	/^_reader[4] = function(msg) return _reader.string end$/;"	f
+_reader[5] 	gxlua/protobuf.lua	/^_reader[5] = function(msg) return _reader.string end$/;"	f
+_reader[6] 	gxlua/protobuf.lua	/^_reader[6] = function(msg)$/;"	f
+_reader[7] 	gxlua/protobuf.lua	/^_reader[7] = function(msg) return _reader.int64 end$/;"	f
+_reader[8] 	gxlua/protobuf.lua	/^_reader[8] = function(msg) return _reader.int32 end$/;"	f
+_writer:bool	gxlua/protobuf.lua	/^function _writer:bool(k,v)$/;"	f
+_writer:bool_repeated	gxlua/protobuf.lua	/^function _writer:bool_repeated(k,v)$/;"	f
+_writer:int32_repeated	gxlua/protobuf.lua	/^function _writer:int32_repeated(k,v)$/;"	f
+_writer:int52_repeated	gxlua/protobuf.lua	/^function _writer:int52_repeated(k,v)$/;"	f
+_writer:int64_repeated	gxlua/protobuf.lua	/^function _writer:int64_repeated(k,v)$/;"	f
+_writer:int_repeated	gxlua/protobuf.lua	/^function _writer:int_repeated(k,v)$/;"	f
+_writer:message	gxlua/protobuf.lua	/^function _writer:message(k, v , message_type)$/;"	f
+_writer:message_repeated	gxlua/protobuf.lua	/^function _writer:message_repeated(k,v, message_type)$/;"	f
+_writer:real_repeated	gxlua/protobuf.lua	/^function _writer:real_repeated(k,v)$/;"	f
+_writer:string_repeated	gxlua/protobuf.lua	/^function _writer:string_repeated(k,v)$/;"	f
+_writer:uint52_repeated	gxlua/protobuf.lua	/^function _writer:uint52_repeated(k,v)$/;"	f
+_writer[10] 	gxlua/protobuf.lua	/^_writer[10] = function(msg) return _writer.int52 end$/;"	f
+_writer[11] 	gxlua/protobuf.lua	/^_writer[11] = function(msg) return _writer.uint52 end$/;"	f
+_writer[128+10] 	gxlua/protobuf.lua	/^_writer[128+10] = function(msg) return _writer.int52_repeated end$/;"	f
+_writer[128+11] 	gxlua/protobuf.lua	/^_writer[128+11] = function(msg) return _writer.uint52_repeated end$/;"	f
+_writer[128+1] 	gxlua/protobuf.lua	/^_writer[128+1] = function(msg) return _writer.int_repeated end$/;"	f
+_writer[128+2] 	gxlua/protobuf.lua	/^_writer[128+2] = function(msg) return _writer.real_repeated end$/;"	f
+_writer[128+3] 	gxlua/protobuf.lua	/^_writer[128+3] = function(msg) return _writer.bool_repeated end$/;"	f
+_writer[128+4] 	gxlua/protobuf.lua	/^_writer[128+4] = function(msg) return _writer.string_repeated end$/;"	f
+_writer[128+5] 	gxlua/protobuf.lua	/^_writer[128+5] = function(msg) return _writer.string_repeated end$/;"	f
+_writer[128+6] 	gxlua/protobuf.lua	/^_writer[128+6] = function(msg)$/;"	f
+_writer[128+7] 	gxlua/protobuf.lua	/^_writer[128+7] = function(msg) return _writer.int64_repeated end$/;"	f
+_writer[128+8] 	gxlua/protobuf.lua	/^_writer[128+8] = function(msg) return _writer.int32_repeated end$/;"	f
+_writer[1] 	gxlua/protobuf.lua	/^_writer[1] = function(msg) return _writer.int end$/;"	f
+_writer[2] 	gxlua/protobuf.lua	/^_writer[2] = function(msg) return _writer.real end$/;"	f
+_writer[3] 	gxlua/protobuf.lua	/^_writer[3] = function(msg) return _writer.bool end$/;"	f
+_writer[4] 	gxlua/protobuf.lua	/^_writer[4] = function(msg) return _writer.string end$/;"	f
+_writer[5] 	gxlua/protobuf.lua	/^_writer[5] = function(msg) return _writer.string end$/;"	f
+_writer[6] 	gxlua/protobuf.lua	/^_writer[6] = function(msg)$/;"	f
+_writer[7] 	gxlua/protobuf.lua	/^_writer[7] = function(msg) return _writer.int64 end$/;"	f
+_writer[8] 	gxlua/protobuf.lua	/^_writer[8] = function(msg) return _writer.int32 end$/;"	f
+check	gxlua/protobuf.lua	/^function check(typename , field)$/;"	f
+decode	gxlua/protobuf.lua	/^function decode(typename, buffer, length)$/;"	f
+decode_message	gxlua/protobuf.lua	/^local function decode_message( message , buffer, length)$/;"	f
+decode_message_cb	gxlua/protobuf.lua	/^local function decode_message_cb(typename, buffer)$/;"	f
+decode_message_mt.__index	gxlua/protobuf.lua	/^function decode_message_mt.__index(tbl, key)$/;"	f
+decode_message_mt.__pairs	gxlua/protobuf.lua	/^function decode_message_mt.__pairs(tbl)$/;"	f
+default_table	gxlua/protobuf.lua	/^local function default_table(typename)$/;"	f
+encode	gxlua/protobuf.lua	/^function encode( message, t , func , ...)$/;"	f
+encode_message	gxlua/protobuf.lua	/^local function encode_message(CObj, message_type, t)$/;"	f
+enum_id	gxlua/protobuf.lua	/^function enum_id(enum_type, enum_name)$/;"	f
+expand	gxlua/protobuf.lua	/^local function expand(tbl)$/;"	f
+extract	gxlua/protobuf.lua	/^function extract(tbl)$/;"	f
+lasterror	gxlua/protobuf.lua	/^function lasterror()$/;"	f
+pack	gxlua/protobuf.lua	/^function pack(pattern, ...)$/;"	f
+register	gxlua/protobuf.lua	/^function register( buffer)$/;"	f
+register_file	gxlua/protobuf.lua	/^function register_file(filename)$/;"	f
+register_file_c	gxlua/protobuf.lua	/^function register_file_c(filename)$/;"	f
+set_default	gxlua/protobuf.lua	/^local function set_default(typename, tbl)$/;"	f
+unpack	gxlua/protobuf.lua	/^function unpack(pattern, buffer, length)$/;"	f
+selectByPercent	gxlua/random.lua	/^function selectByPercent(value)$/;"	f
+selectByPoint	gxlua/random.lua	/^function selectByPoint(value)$/;"	f
+selectByRegion	gxlua/random.lua	/^function selectByRegion(down, up)$/;"	f
+selectByTenTh	gxlua/random.lua	/^function selectByTenTh(value)$/;"	f
+decode_repair	gxlua/repair.lua	/^function decode_repair(t)$/;"	f
+encode_repair	gxlua/repair.lua	/^function encode_repair(t)$/;"	f
+if type(v) 	gxlua/repair.lua	/^		if type(v) == "function" then$/;"	f
+json2table	gxlua/repair.lua	/^function json2table(js)$/;"	f
+table2json	gxlua/repair.lua	/^function table2json(tbl)$/;"	f
+Server.ServerStart 	gxlua/server.lua	/^Server.ServerStart = function ()$/;"	f
+Server.ServerStop 	gxlua/server.lua	/^Server.ServerStop = function ()$/;"	f
+Http.Echo 	gxlua/unihttpclient.lua	/^Http.Echo = function (cmd, para)$/;"	f
+testHttpRequest	gxlua/unihttpclient.lua	/^function testHttpRequest()$/;"	f
+unilight.HttpRequestGet 	gxlua/unihttpclient.lua	/^unilight.HttpRequestGet = function(resFunc, url, heads, para)$/;"	f
+unilight.HttpRequestPost 	gxlua/unihttpclient.lua	/^unilight.HttpRequestPost = function(resFunc, url, body, bodyType, heads, para)$/;"	f
+Chat.PmdCommonChatUserPmd_CS 	gxlua/unilight.lua	/^Chat.PmdCommonChatUserPmd_CS = function(info, laccount)$/;"	f
+Chat.PmdPrivateChatUserPmd_CS 	gxlua/unilight.lua	/^Chat.PmdPrivateChatUserPmd_CS = function(info, laccount)$/;"	f
+Chat.UniPmdCommonChatUserPmd_CS 	gxlua/unilight.lua	/^Chat.UniPmdCommonChatUserPmd_CS = function(info, laccount)$/;"	f
+Chat.UniPmdPrivateChatUserPmd_CS 	gxlua/unilight.lua	/^Chat.UniPmdPrivateChatUserPmd_CS = function(info, laccount)$/;"	f
+Cmd.HttpAccountLogout 	gxlua/unilight.lua	/^Cmd.HttpAccountLogout = function(laccount)$/;"	f
+Do[k] 	gxlua/unilight.lua	/^			Do[k] = function(reqdata, w, msgname)$/;"	f
+GmCmd[k] 	gxlua/unilight.lua	/^			GmCmd[k] = function(w, ...)$/;"	f
+GmCommand.LuaHelp  	gxlua/unilight.lua	/^GmCommand.LuaHelp  = function (account,params)$/;"	f
+GmServer[k] 	gxlua/unilight.lua	/^            GmServer[k] = function(jsreq, w)$/;"	f
+HttpRes[k] 	gxlua/unilight.lua	/^			HttpRes[k] = function(jsres, jspara)$/;"	f
+Lobby[k] 	gxlua/unilight.lua	/^			Lobby[k] = function(reqdata, w, msgname)$/;"	f
+LoginClientTask.PushMsgReturnSdkPmd_S 	gxlua/unilight.lua	/^	LoginClientTask.PushMsgReturnSdkPmd_S = function(task, cmd)$/;"	f
+Net.PmdWebSocketForwardUserPmd_C 	gxlua/unilight.lua	/^Net.PmdWebSocketForwardUserPmd_C = function (cmd, account)$/;"	f
+ZoneServer[k] 	gxlua/unilight.lua	/^			ZoneServer[k] = function(reqdata, w, msgname)$/;"	f
+__newindex 	gxlua/unilight.lua	/^	__newindex = function(t, k, handle)$/;"	f
+__newindex 	gxlua/unilight.lua	/^    __newindex = function(t, k, handle)$/;"	f
+gcinfo 	gxlua/unilight.lua	/^gcinfo = function(s)$/;"	f
+if type(Do.dbready) 	gxlua/unilight.lua	/^	if type(Do.dbready) == "function" then$/;"	f
+unilight.addcalender 	gxlua/unilight.lua	/^unilight.addcalender = function(name, interval, ...)$/;"	f
+unilight.addclocker 	gxlua/unilight.lua	/^unilight.addclocker = function(name, sec, intervalSec, ...)$/;"	f
+unilight.addtimer 	gxlua/unilight.lua	/^unilight.addtimer = function(name, sec, ...)$/;"	f
+unilight.addtimermsec 	gxlua/unilight.lua	/^unilight.addtimermsec = function(name, msec, ...)$/;"	f
+unilight.broadcast 	gxlua/unilight.lua	/^unilight.broadcast = function(req)$/;"	f
+unilight.convertchinesetospell	gxlua/unilight.lua	/^unilight.convertchinesetospell= function(chinese, splitflag)$/;"	f
+unilight.convertchinesetotraditional 	gxlua/unilight.lua	/^unilight.convertchinesetotraditional = function(chinese)$/;"	f
+unilight.debug 	gxlua/unilight.lua	/^unilight.debug = function(...)$/;"	f
+unilight.error 	gxlua/unilight.lua	/^unilight.error = function(...)$/;"	f
+unilight.fail 	gxlua/unilight.lua	/^unilight.fail = function(w, req, errno, reason)$/;"	f
+unilight.faildb 	gxlua/unilight.lua	/^unilight.faildb = function(w, req)$/;"	f
+unilight.getdebuglevel 	gxlua/unilight.lua	/^unilight.getdebuglevel = function()$/;"	f
+unilight.getgameid 	gxlua/unilight.lua	/^unilight.getgameid = function()$/;"	f
+unilight.getrandbytes 	gxlua/unilight.lua	/^unilight.getrandbytes = function(n)$/;"	f
+unilight.getrandstring 	gxlua/unilight.lua	/^unilight.getrandstring = function(n)$/;"	f
+unilight.getrandstring2 	gxlua/unilight.lua	/^unilight.getrandstring2 = function(n)$/;"	f
+unilight.getreq 	gxlua/unilight.lua	/^unilight.getreq = function(jsreq)$/;"	f
+unilight.getuuid 	gxlua/unilight.lua	/^unilight.getuuid = function()$/;"	f
+unilight.getuuid62hex 	gxlua/unilight.lua	/^unilight.getuuid62hex = function(n)$/;"	f
+unilight.getzoneid 	gxlua/unilight.lua	/^unilight.getzoneid = function()$/;"	f
+unilight.httpCryptoDecode 	gxlua/unilight.lua	/^unilight.httpCryptoDecode = function(data, sceretkey)$/;"	f
+unilight.httpCryptoEncode 	gxlua/unilight.lua	/^unilight.httpCryptoEncode = function(data, sceretkey)$/;"	f
+unilight.info 	gxlua/unilight.lua	/^unilight.info = function(...)$/;"	f
+unilight.mongodbready 	gxlua/unilight.lua	/^unilight.mongodbready = function(handler)$/;"	f
+unilight.mysqldbready 	gxlua/unilight.lua	/^unilight.mysqldbready = function(handler)$/;"	f
+unilight.pbfiles 	gxlua/unilight.lua	/^unilight.pbfiles = function()$/;"	f
+unilight.redisdbready 	gxlua/unilight.lua	/^unilight.redisdbready = function(handler)$/;"	f
+unilight.reloadfile 	gxlua/unilight.lua	/^unilight.reloadfile = function()$/;"	f
+unilight.repairslice 	gxlua/unilight.lua	/^unilight.repairslice = function(slice)$/;"	f
+unilight.response 	gxlua/unilight.lua	/^unilight.response = function(w, req)$/;"	f
+unilight.rethinkdbready 	gxlua/unilight.lua	/^unilight.rethinkdbready = function(handler)$/;"	f
+unilight.scripterror 	gxlua/unilight.lua	/^unilight.scripterror = function(w, err)$/;"	f
+unilight.scriptfiles 	gxlua/unilight.lua	/^unilight.scriptfiles = function()$/;"	f
+unilight.sendNoResponse 	gxlua/unilight.lua	/^unilight.sendNoResponse = function(data)$/;"	f
+unilight.stoptimer 	gxlua/unilight.lua	/^unilight.stoptimer = function(timer)$/;"	f
+unilight.success 	gxlua/unilight.lua	/^unilight.success = function(w, req)$/;"	f
+unilight.tablefiles 	gxlua/unilight.lua	/^unilight.tablefiles = function()$/;"	f
+unilight.tzoffset 	gxlua/unilight.lua	/^unilight.tzoffset = function()$/;"	f
+unilight.verifyRsa 	gxlua/unilight.lua	/^unilight.verifyRsa = function(publicKey, msg, sig)$/;"	f
+unilight.version 	gxlua/unilight.lua	/^unilight.version = function() return 60 end$/;"	f
+unilight.warn 	gxlua/unilight.lua	/^unilight.warn = function(...)$/;"	f
+Lby.lobby_connect 	gxlua/unilobby.lua	/^Lby.lobby_connect = function(cmd, lobbytask) $/;"	f
+Lby.lobby_disconnect 	gxlua/unilobby.lua	/^Lby.lobby_disconnect = function(cmd, lobbytask) $/;"	f
+unilobby.getlobbytask 	gxlua/unilobby.lua	/^unilobby.getlobbytask = function(id)$/;"	f
+unilobby.getzoneinfo 	gxlua/unilobby.lua	/^unilobby.getzoneinfo = function()$/;"	f
+unilight.a 	gxlua/unimongodb.lua	/^	unilight.a = function(...)$/;"	f
+unilight.asc 	gxlua/unimongodb.lua	/^	unilight.asc = function(a)$/;"	f
+unilight.ascWithIndex 	gxlua/unimongodb.lua	/^	unilight.ascWithIndex = function(index)$/;"	f
+unilight.chainResponseNumber 	gxlua/unimongodb.lua	/^	unilight.chainResponseNumber = function(chain, err)$/;"	f
+unilight.chainResponseObject 	gxlua/unimongodb.lua	/^	unilight.chainResponseObject = function(chain)$/;"	f
+unilight.chainResponseSequence 	gxlua/unimongodb.lua	/^	unilight.chainResponseSequence = function(chain)$/;"	f
+unilight.chainResponseWrite 	gxlua/unimongodb.lua	/^	unilight.chainResponseWrite = function(chain)$/;"	f
+unilight.check_data_cache_saveall 	gxlua/unimongodb.lua	/^	unilight.check_data_cache_saveall = function()$/;"	f
+unilight.check_data_cache_timeout 	gxlua/unimongodb.lua	/^	unilight.check_data_cache_timeout = function(text,clocker)$/;"	f
+unilight.cleardb 	gxlua/unimongodb.lua	/^	unilight.cleardb = function(name)$/;"	f
+unilight.createdb 	gxlua/unimongodb.lua	/^	unilight.createdb = function(name, primary)$/;"	f
+unilight.createindex 	gxlua/unimongodb.lua	/^	unilight.createindex = function(name, index)$/;"	f
+unilight.delete 	gxlua/unimongodb.lua	/^	unilight.delete = function(name, id)$/;"	f
+unilight.desc 	gxlua/unimongodb.lua	/^	unilight.desc = function(a)$/;"	f
+unilight.descWithIndex 	gxlua/unimongodb.lua	/^	unilight.descWithIndex = function(index)$/;"	f
+unilight.droptable 	gxlua/unimongodb.lua	/^	unilight.droptable = function(name)$/;"	f
+unilight.eq 	gxlua/unimongodb.lua	/^	unilight.eq = function(a, b)$/;"	f
+unilight.field 	gxlua/unimongodb.lua	/^	unilight.field = function(fieldpath)$/;"	f
+unilight.ge 	gxlua/unimongodb.lua	/^	unilight.ge = function(a, b)$/;"	f
+unilight.getAll 	gxlua/unimongodb.lua	/^	unilight.getAll = function(name)$/;"	f
+unilight.getByFilter 	gxlua/unimongodb.lua	/^	unilight.getByFilter = function(name, filter, limit)$/;"	f
+unilight.getByIndex 	gxlua/unimongodb.lua	/^	unilight.getByIndex = function(name, index, ...)$/;"	f
+unilight.getCountByFilter 	gxlua/unimongodb.lua	/^	unilight.getCountByFilter = function(name, filter)$/;"	f
+unilight.get_mongodb 	gxlua/unimongodb.lua	/^	unilight.get_mongodb = function()$/;"	f
+unilight.getaround 	gxlua/unimongodb.lua	/^	unilight.getaround = function(name, field, value, size, orderby)$/;"	f
+unilight.getdata 	gxlua/unimongodb.lua	/^	unilight.getdata = function(name, key, force)$/;"	f
+unilight.getfield 	gxlua/unimongodb.lua	/^	unilight.getfield = function(name, id, fieldpath)$/;"	f
+unilight.getindex 	gxlua/unimongodb.lua	/^	unilight.getindex = function(name, field, value, orderby)$/;"	f
+unilight.getmax 	gxlua/unimongodb.lua	/^	unilight.getmax = function(name, field, default)$/;"	f
+unilight.group 	gxlua/unimongodb.lua	/^	unilight.group = function(...)$/;"	f
+unilight.gt 	gxlua/unimongodb.lua	/^	unilight.gt = function(a, b)$/;"	f
+unilight.initmongodb 	gxlua/unimongodb.lua	/^unilight.initmongodb = function()$/;"	f
+unilight.le 	gxlua/unimongodb.lua	/^	unilight.le = function(a, b)$/;"	f
+unilight.lt 	gxlua/unimongodb.lua	/^	unilight.lt = function(a, b)$/;"	f
+unilight.match 	gxlua/unimongodb.lua	/^	unilight.match = function(...)$/;"	f
+unilight.n 	gxlua/unimongodb.lua	/^	unilight.n = function(filter)$/;"	f
+unilight.neq 	gxlua/unimongodb.lua	/^	unilight.neq = function(a, b)$/;"	f
+unilight.o 	gxlua/unimongodb.lua	/^	unilight.o = function(...)$/;"	f
+unilight.savebatch 	gxlua/unimongodb.lua	/^    unilight.savebatch = function(name, array)$/;"	f
+unilight.savedata 	gxlua/unimongodb.lua	/^	unilight.savedata = function(name, data,force)$/;"	f
+unilight.savefield 	gxlua/unimongodb.lua	/^	unilight.savefield = function(name, id, fieldpath, data)$/;"	f
+unilight.startChain 	gxlua/unimongodb.lua	/^	unilight.startChain = function()$/;"	f
+unilight.topdata 	gxlua/unimongodb.lua	/^	unilight.topdata = function(name, limit, orderby, filter)$/;"	f
+unilight.update 	gxlua/unimongodb.lua	/^	unilight.update = function(name, id, args)$/;"	f
+unilight.updatetable 	gxlua/unimongodb.lua	/^	unilight.updatetable = function(name, args)$/;"	f
+mongodbtest.check_data_cache_timeout 	gxlua/unimongodb_test.lua	/^mongodbtest.check_data_cache_timeout = function(text,clocker)$/;"	f
+mongodbtest.cleardb 	gxlua/unimongodb_test.lua	/^mongodbtest.cleardb = function(name)$/;"	f
+mongodbtest.createdb 	gxlua/unimongodb_test.lua	/^mongodbtest.createdb = function(name, first,last)$/;"	f
+mongodbtest.createindex 	gxlua/unimongodb_test.lua	/^mongodbtest.createindex = function(name, index)$/;"	f
+mongodbtest.delete 	gxlua/unimongodb_test.lua	/^mongodbtest.delete = function(name, id)$/;"	f
+mongodbtest.droptable 	gxlua/unimongodb_test.lua	/^mongodbtest.droptable = function(name)$/;"	f
+mongodbtest.getAll 	gxlua/unimongodb_test.lua	/^mongodbtest.getAll = function(name)$/;"	f
+mongodbtest.getByFilter 	gxlua/unimongodb_test.lua	/^mongodbtest.getByFilter = function(name, filter, limit)$/;"	f
+mongodbtest.getByIndex 	gxlua/unimongodb_test.lua	/^mongodbtest.getByIndex = function(name, index, ...)$/;"	f
+mongodbtest.getCountByFilter 	gxlua/unimongodb_test.lua	/^mongodbtest.getCountByFilter = function(name, filter)$/;"	f
+mongodbtest.get_mongodb 	gxlua/unimongodb_test.lua	/^mongodbtest.get_mongodb = function()$/;"	f
+mongodbtest.getaround 	gxlua/unimongodb_test.lua	/^mongodbtest.getaround = function(name, field, value, size, orderby)$/;"	f
+mongodbtest.getdata 	gxlua/unimongodb_test.lua	/^mongodbtest.getdata = function(name, key)$/;"	f
+mongodbtest.getindex 	gxlua/unimongodb_test.lua	/^mongodbtest.getindex = function(name, field, value, orderby)$/;"	f
+mongodbtest.getmax 	gxlua/unimongodb_test.lua	/^mongodbtest.getmax = function(name, field, default)$/;"	f
+mongodbtest.savebatch 	gxlua/unimongodb_test.lua	/^mongodbtest.savebatch = function(name, array)$/;"	f
+mongodbtest.savedata 	gxlua/unimongodb_test.lua	/^mongodbtest.savedata = function(name, data)$/;"	f
+mongodbtest.savefield 	gxlua/unimongodb_test.lua	/^mongodbtest.savefield = function(name, id, fieldpath, data)$/;"	f
+mongodbtest.startChain 	gxlua/unimongodb_test.lua	/^mongodbtest.startChain = function()$/;"	f
+mongodbtest.topdata 	gxlua/unimongodb_test.lua	/^mongodbtest.topdata = function(name, limit, orderby, filter)$/;"	f
+mongodbtest.update 	gxlua/unimongodb_test.lua	/^mongodbtest.update = function(name, id, args)$/;"	f
+mongodbtest.updatetable 	gxlua/unimongodb_test.lua	/^mongodbtest.updatetable = function(name, args)$/;"	f
+parsefields	gxlua/unimysql.lua	/^local function parsefields(fields)$/;"	f
+parsegroup	gxlua/unimysql.lua	/^local function parsegroup(gp)$/;"	f
+parseorder	gxlua/unimysql.lua	/^local function parseorder(ord)$/;"	f
+parseupdate	gxlua/unimysql.lua	/^local function parseupdate(update)$/;"	f
+parsevalue	gxlua/unimysql.lua	/^local function parsevalue(value)$/;"	f
+parsewhere	gxlua/unimysql.lua	/^local function parsewhere(where)$/;"	f
+ql.delete 	gxlua/unimysql.lua	/^		ql.delete = function()$/;"	f
+ql.group 	gxlua/unimysql.lua	/^		ql.group = function(gp)$/;"	f
+ql.ignore 	gxlua/unimysql.lua	/^		ql.ignore = function(b)$/;"	f
+ql.insert 	gxlua/unimysql.lua	/^		ql.insert = function(fields)$/;"	f
+ql.limit 	gxlua/unimysql.lua	/^		ql.limit = function(limit)$/;"	f
+ql.offset 	gxlua/unimysql.lua	/^		ql.offset = function(offset)$/;"	f
+ql.order 	gxlua/unimysql.lua	/^		ql.order = function(ord)$/;"	f
+ql.run 	gxlua/unimysql.lua	/^		ql.run = function()$/;"	f
+ql.select 	gxlua/unimysql.lua	/^		ql.select = function(fields)$/;"	f
+ql.sql 	gxlua/unimysql.lua	/^		ql.sql = function()$/;"	f
+ql.table 	gxlua/unimysql.lua	/^		ql.table = function(name)$/;"	f
+ql.update 	gxlua/unimysql.lua	/^		ql.update = function(up)$/;"	f
+ql.value 	gxlua/unimysql.lua	/^		ql.value = function(v)$/;"	f
+ql.where 	gxlua/unimysql.lua	/^		ql.where = function(cond)$/;"	f
+unilight.execsql 	gxlua/unimysql.lua	/^	unilight.execsql = function(sql, args)$/;"	f
+unilight.initmysqldb 	gxlua/unimysql.lua	/^unilight.initmysqldb = function()$/;"	f
+unilight.querysql 	gxlua/unimysql.lua	/^	unilight.querysql = function(sql, args)$/;"	f
+unilight.startsql 	gxlua/unimysql.lua	/^	unilight.startsql = function()$/;"	f
+LoginClientTask.RequestModifyAccountInfoLoginSmd_CS	gxlua/uniplatform.lua	/^LoginClientTask.RequestModifyAccountInfoLoginSmd_CS= function(task, cmd)$/;"	f
+uniplatform.modifyaccountmobilenum 	gxlua/uniplatform.lua	/^uniplatform.modifyaccountmobilenum = function(uid, mobilenum, accountid, oldpassowrd)$/;"	f
+uniplatform.modifyaccountparent 	gxlua/uniplatform.lua	/^uniplatform.modifyaccountparent = function(uid, parent, accoutuid, oldpassowrd)$/;"	f
+uniplatform.modifyaccountpassword	gxlua/uniplatform.lua	/^uniplatform.modifyaccountpassword= function(uid, password, accountid, oldpassowrd)$/;"	f
+uniplatform.requestpushiosmessage 	gxlua/uniplatform.lua	/^uniplatform.requestpushiosmessage = function(title, msg, pushtime, data)$/;"	f
+uniplatform.requestqrcodeurl 	gxlua/uniplatform.lua	/^uniplatform.requestqrcodeurl = function(uid, platid, roleid, extdata)$/;"	f
+uniplatform.requestsendmobilemessage 	gxlua/uniplatform.lua	/^uniplatform.requestsendmobilemessage = function(uid, platid, mobilenum, message)$/;"	f
+unilight.initredisdb 	gxlua/uniredis.lua	/^unilight.initredisdb = function()$/;"	f
+unilight.redis_getdata 	gxlua/uniredis.lua	/^	unilight.redis_getdata = function(key, dbnum)$/;"	f
+unilight.redis_gethashdata 	gxlua/uniredis.lua	/^	unilight.redis_gethashdata = function(key, field, dbnum)$/;"	f
+unilight.redis_gethashdata_Str 	gxlua/uniredis.lua	/^	unilight.redis_gethashdata_Str = function(key, field, dbnum)$/;"	f
+unilight.redis_gethashmultdata 	gxlua/uniredis.lua	/^	unilight.redis_gethashmultdata = function(key, dbnum)$/;"	f
+unilight.redis_gethashmultdata_Str 	gxlua/uniredis.lua	/^	unilight.redis_gethashmultdata_Str = function(key, dbnum)$/;"	f
+unilight.redis_getlistdata 	gxlua/uniredis.lua	/^	unilight.redis_getlistdata = function(key, index, dbnum)$/;"	f
+unilight.redis_rmkey 	gxlua/uniredis.lua	/^	unilight.redis_rmkey = function(key, dbnum)$/;"	f
+unilight.redis_rmlistdata 	gxlua/uniredis.lua	/^	unilight.redis_rmlistdata = function(key, count, value, dbnum)$/;"	f
+unilight.redis_select 	gxlua/uniredis.lua	/^	unilight.redis_select = function(dbnum)$/;"	f
+unilight.redis_setdata 	gxlua/uniredis.lua	/^	unilight.redis_setdata = function(key, value, dbnum)$/;"	f
+unilight.redis_setexpire 	gxlua/uniredis.lua	/^	unilight.redis_setexpire = function(key, seconds, dbnum)$/;"	f
+unilight.redis_sethashdata 	gxlua/uniredis.lua	/^	unilight.redis_sethashdata = function(key, field, value, dbnum)$/;"	f
+unilight.redis_sethashmultdata 	gxlua/uniredis.lua	/^	unilight.redis_sethashmultdata = function(key, values, dbnum)$/;"	f
+unilight.redis_setlistdata 	gxlua/uniredis.lua	/^	unilight.redis_setlistdata = function(key, value, dbnum)$/;"	f
+uniregexp.match 	gxlua/uniregexp.lua	/^uniregexp.match = function(pattern, s)$/;"	f
+uniregexp.quotemeta 	gxlua/uniregexp.lua	/^uniregexp.quotemeta = function(s)$/;"	f
+unilight.a 	gxlua/unirethinkdb.lua	/^	unilight.a = function(...)$/;"	f
+unilight.alipay.getpayment 	gxlua/unirethinkdb.lua	/^	unilight.alipay.getpayment = function(gameid, zoneid, uid)$/;"	f
+unilight.alipay.processed 	gxlua/unirethinkdb.lua	/^	unilight.alipay.processed = function(orderid)$/;"	f
+unilight.alipay.ready 	gxlua/unirethinkdb.lua	/^	unilight.alipay.ready = function(db)$/;"	f
+unilight.alipay.savepayment 	gxlua/unirethinkdb.lua	/^	unilight.alipay.savepayment = function(form)$/;"	f
+unilight.anysdk.getpayment 	gxlua/unirethinkdb.lua	/^	unilight.anysdk.getpayment = function(gameid, zoneid, uid)$/;"	f
+unilight.anysdk.processed 	gxlua/unirethinkdb.lua	/^	unilight.anysdk.processed = function(orderid)$/;"	f
+unilight.anysdk.ready 	gxlua/unirethinkdb.lua	/^	unilight.anysdk.ready = function(db)$/;"	f
+unilight.anysdk.savepayment 	gxlua/unirethinkdb.lua	/^	unilight.anysdk.savepayment = function(form)$/;"	f
+unilight.asc 	gxlua/unirethinkdb.lua	/^	unilight.asc = function(a)$/;"	f
+unilight.ascWithIndex 	gxlua/unirethinkdb.lua	/^	unilight.ascWithIndex = function(index)$/;"	f
+unilight.chainResponseNumber 	gxlua/unirethinkdb.lua	/^	unilight.chainResponseNumber = function(chain)$/;"	f
+unilight.chainResponseObject 	gxlua/unirethinkdb.lua	/^	unilight.chainResponseObject = function(chain)$/;"	f
+unilight.chainResponseSequence 	gxlua/unirethinkdb.lua	/^	unilight.chainResponseSequence = function(chain)$/;"	f
+unilight.chainResponseWrite 	gxlua/unirethinkdb.lua	/^	unilight.chainResponseWrite = function(chain)$/;"	f
+unilight.check_data_cache_timeout 	gxlua/unirethinkdb.lua	/^	unilight.check_data_cache_timeout = function(text,clocker)$/;"	f
+unilight.cleardb 	gxlua/unirethinkdb.lua	/^	unilight.cleardb = function(name)$/;"	f
+unilight.createdb 	gxlua/unirethinkdb.lua	/^	unilight.createdb = function(name, primary)$/;"	f
+unilight.createindex 	gxlua/unirethinkdb.lua	/^	unilight.createindex = function(name, index)$/;"	f
+unilight.delete 	gxlua/unirethinkdb.lua	/^	unilight.delete = function(name, uid)$/;"	f
+unilight.desc 	gxlua/unirethinkdb.lua	/^	unilight.desc = function(a)$/;"	f
+unilight.descWithIndex 	gxlua/unirethinkdb.lua	/^	unilight.descWithIndex = function(index)$/;"	f
+unilight.distance 	gxlua/unirethinkdb.lua	/^	unilight.distance = function(a, b)$/;"	f
+unilight.droptable 	gxlua/unirethinkdb.lua	/^	unilight.droptable = function(names)$/;"	f
+unilight.eq 	gxlua/unirethinkdb.lua	/^	unilight.eq = function(a, b)$/;"	f
+unilight.field 	gxlua/unirethinkdb.lua	/^	unilight.field = function(path)$/;"	f
+unilight.ge 	gxlua/unirethinkdb.lua	/^	unilight.ge = function(a, b)$/;"	f
+unilight.getAll 	gxlua/unirethinkdb.lua	/^	unilight.getAll = function(name)$/;"	f
+unilight.getByFilter 	gxlua/unirethinkdb.lua	/^	unilight.getByFilter = function(name, filter, limit)$/;"	f
+unilight.getByIndex 	gxlua/unirethinkdb.lua	/^	unilight.getByIndex = function(name, index, ...)$/;"	f
+unilight.getCountByFilter 	gxlua/unirethinkdb.lua	/^	unilight.getCountByFilter = function(name, filter)$/;"	f
+unilight.getaround 	gxlua/unirethinkdb.lua	/^	unilight.getaround = function(name, field, value, size, orderby)$/;"	f
+unilight.getdata 	gxlua/unirethinkdb.lua	/^	unilight.getdata = function(name, key)$/;"	f
+unilight.getfield 	gxlua/unirethinkdb.lua	/^	unilight.getfield = function(name, key, field)$/;"	f
+unilight.getfields 	gxlua/unirethinkdb.lua	/^	unilight.getfields = function(name, key, fields)$/;"	f
+unilight.getindex 	gxlua/unirethinkdb.lua	/^	unilight.getindex = function(name, field, value, orderby)$/;"	f
+unilight.getmax 	gxlua/unirethinkdb.lua	/^	unilight.getmax = function(name, field, default)$/;"	f
+unilight.gt 	gxlua/unirethinkdb.lua	/^	unilight.gt = function(a, b)$/;"	f
+unilight.hasfield 	gxlua/unirethinkdb.lua	/^	unilight.hasfield = function(path)$/;"	f
+unilight.iapps.getpayment 	gxlua/unirethinkdb.lua	/^	unilight.iapps.getpayment = function(gameid, zoneid, uid)$/;"	f
+unilight.iapps.processed 	gxlua/unirethinkdb.lua	/^	unilight.iapps.processed = function(orderid)$/;"	f
+unilight.iapps.ready 	gxlua/unirethinkdb.lua	/^	unilight.iapps.ready = function(db)$/;"	f
+unilight.iapps.savepayment 	gxlua/unirethinkdb.lua	/^	unilight.iapps.savepayment = function(form)$/;"	f
+unilight.initrethinkdb 	gxlua/unirethinkdb.lua	/^unilight.initrethinkdb = function()$/;"	f
+unilight.le 	gxlua/unirethinkdb.lua	/^	unilight.le = function(a, b)$/;"	f
+unilight.lt 	gxlua/unirethinkdb.lua	/^	unilight.lt = function(a, b)$/;"	f
+unilight.n 	gxlua/unirethinkdb.lua	/^	unilight.n = function(a)$/;"	f
+unilight.neq 	gxlua/unirethinkdb.lua	/^	unilight.neq = function(a, b)$/;"	f
+unilight.o 	gxlua/unirethinkdb.lua	/^	unilight.o = function(...)$/;"	f
+unilight.orderByIndexOpts 	gxlua/unirethinkdb.lua	/^	unilight.orderByIndexOpts = function(index)$/;"	f
+unilight.savebatch 	gxlua/unirethinkdb.lua	/^	unilight.savebatch = function(name, array)$/;"	f
+unilight.savedata 	gxlua/unirethinkdb.lua	/^	unilight.savedata = function(name, data)$/;"	f
+unilight.startChain 	gxlua/unirethinkdb.lua	/^	unilight.startChain = function()$/;"	f
+unilight.topdata 	gxlua/unirethinkdb.lua	/^	unilight.topdata = function(name, limit, orderby, filter)$/;"	f
+unilight.update 	gxlua/unirethinkdb.lua	/^	unilight.update = function(name, key, args)$/;"	f
+unilight.updateorder 	gxlua/unirethinkdb.lua	/^	unilight.updateorder = function(name, orderby, key, index, start, update)$/;"	f
+unilight.updatetable 	gxlua/unirethinkdb.lua	/^	unilight.updatetable = function(name, args)$/;"	f
+unilight.upsert 	gxlua/unirethinkdb.lua	/^	unilight.upsert = function(name, primary, key, values)$/;"	f
+Do[k] 	gxlua/unitcp.lua	/^			Do[k] = function(jsreq, roomuser)$/;"	f
+Tcp.account_connect 	gxlua/unitcp.lua	/^Tcp.account_connect = function(roomuser)$/;"	f
+Tcp.account_disconnect 	gxlua/unitcp.lua	/^Tcp.account_disconnect = function(roomuser)$/;"	f
+Tcp.account_logout 	gxlua/unitcp.lua	/^Tcp.account_logout = function (roomuser)$/;"	f
+Tcp.createroom 	gxlua/unitcp.lua	/^Tcp.createroom = function (cmd, roomuser)$/;"	f
+Tcp.init_lobby_account 	gxlua/unitcp.lua	/^Tcp.init_lobby_account = function(roomuser)$/;"	f
+Tcp.intoroom 	gxlua/unitcp.lua	/^Tcp.intoroom = function (cmd, roomuser)$/;"	f
+Tcp.online_state_change_account 	gxlua/unitcp.lua	/^Tcp.online_state_change_account = function(laccount,oldstate,newstate)$/;"	f
+Tcp.ping_change_account 	gxlua/unitcp.lua	/^Tcp.ping_change_account = function(laccount,oldping,newping)$/;"	f
+Tcp.reconnect_login_ok 	gxlua/unitcp.lua	/^Tcp.reconnect_login_ok = function(roomuser)$/;"	f
+Tcp.roomBroadcast 	gxlua/unitcp.lua	/^Tcp.roomBroadcast = function (jsRequest, roomuser)$/;"	f
+Tcp.roomBroadcastExceptMe 	gxlua/unitcp.lua	/^Tcp.roomBroadcastExceptMe = function (jsRequest, roomuser)$/;"	f
+Tcp.server_shutdown_notify 	gxlua/unitcp.lua	/^Tcp.server_shutdown_notify = function(roomuser,servertime,lefttime,desc)$/;"	f
+Tcp.worldBroadcast 	gxlua/unitcp.lua	/^Tcp.worldBroadcast = function (jsRequest)$/;"	f
+__newindex 	gxlua/unitcp.lua	/^	__newindex = function(t, k, handle)$/;"	f
+NewUniEventClass	gxlua/unitimer.lua	/^function NewUniEventClass(callback, msec,maxtimes, ...)$/;"	f
+NewUniTimerClass	gxlua/unitimer.lua	/^function NewUniTimerClass(callback, msec, ...)$/;"	f
+NewUniTimerRandomClass	gxlua/unitimer.lua	/^function NewUniTimerRandomClass(callback, msec, ...)$/;"	f
+UniEventClass:Check	gxlua/unitimer.lua	/^function UniEventClass:Check(now,force)$/;"	f
+UniEventClass:GetId	gxlua/unitimer.lua	/^function UniEventClass:GetId()$/;"	f
+UniEventClass:GetName	gxlua/unitimer.lua	/^function UniEventClass:GetName()$/;"	f
+UniEventClass:Stop	gxlua/unitimer.lua	/^function UniEventClass:Stop()$/;"	f
+UniTimerClass:Check	gxlua/unitimer.lua	/^function UniTimerClass:Check(now,force)$/;"	f
+UniTimerClass:GetId	gxlua/unitimer.lua	/^function UniTimerClass:GetId()$/;"	f
+UniTimerClass:GetName	gxlua/unitimer.lua	/^function UniTimerClass:GetName()$/;"	f
+UniTimerClass:Stop	gxlua/unitimer.lua	/^function UniTimerClass:Stop()$/;"	f
+unitimer.addevent	gxlua/unitimer.lua	/^function unitimer.addevent(callback, msec,maxtimes, ...)$/;"	f
+unitimer.addeventmsec	gxlua/unitimer.lua	/^function unitimer.addeventmsec(callback, msec,maxtimes, ...)$/;"	f
+unitimer.addtimer	gxlua/unitimer.lua	/^function unitimer.addtimer(callback, msec, ...)$/;"	f
+unitimer.addtimermsec	gxlua/unitimer.lua	/^function unitimer.addtimermsec(callback, msec, ...)$/;"	f
+unitimer.init	gxlua/unitimer.lua	/^function unitimer.init(msec) --最小精度的定时器$/;"	f
+unitimer.loop	gxlua/unitimer.lua	/^function unitimer.loop()$/;"	f
+unitimer.removeevent	gxlua/unitimer.lua	/^function unitimer.removeevent(event)$/;"	f
+unitimer.removetimer	gxlua/unitimer.lua	/^function unitimer.removetimer(timer)$/;"	f
+Zone.zone_change_props 	gxlua/unizone.lua	/^Zone.zone_change_props = function(cmd, zonetask)$/;"	f
+Zone.zone_connect 	gxlua/unizone.lua	/^    Zone.zone_connect = function(cmd, zonetask) $/;"	f
+Zone.zone_disconnect 	gxlua/unizone.lua	/^    Zone.zone_disconnect = function(cmd, zonetask) $/;"	f
+unizone.getzonetaskbygameidzonid 	gxlua/unizone.lua	/^unizone.getzonetaskbygameidzonid = function(gameid, zoneid)$/;"	f
+CmdBackpackListGetByUid	gxlua_chesscard/backpack/BackpackMgr.lua	/^function CmdBackpackListGetByUid(uid)$/;"	f
+CmdGetNormalRewardGood	gxlua_chesscard/backpack/BackpackMgr.lua	/^function CmdGetNormalRewardGood(uid, goodId, goodNbr, sourceId, sourceType)$/;"	f
+CmdUserExchangeBackpack	gxlua_chesscard/backpack/BackpackMgr.lua	/^function CmdUserExchangeBackpack(uid, goodId, goodNbr, cellPhoneNumber, content)$/;"	f
+GetRewardGood	gxlua_chesscard/backpack/BackpackMgr.lua	/^function GetRewardGood(uid, goodId, goodNbr, sourceId, sourceType, summary)$/;"	f
+Net.CmdBackpackExchangeRequestBackpackCmd_C	gxlua_chesscard/backpack/MsgBackpack.lua	/^Net.CmdBackpackExchangeRequestBackpackCmd_C= function(cmd, laccount)$/;"	f
+Net.CmdBackpackInfoRequestBackpackCmd_C	gxlua_chesscard/backpack/MsgBackpack.lua	/^Net.CmdBackpackInfoRequestBackpackCmd_C= function(cmd, laccount)$/;"	f
+CmdBackPackWin20InfoGetByUid	gxlua_chesscard/backpack/backPackWin20Tack.lua	/^function CmdBackPackWin20InfoGetByUid(uid)$/;"	f
+CmdBackPackWinNbrSetByUid	gxlua_chesscard/backpack/backPackWin20Tack.lua	/^function CmdBackPackWinNbrSetByUid(uid, winNbr)$/;"	f
+Chat.PmdCommonChatUserPmd_CS 	gxlua_chesscard/commonmsg/commonchat.lua	/^Chat.PmdCommonChatUserPmd_CS = function(info, laccount)$/;"	f
+CommonChat	gxlua_chesscard/commonmsg/commonchat.lua	/^function CommonChat(uid, nickName, bMan, chatPos, chatType, brdInfo)$/;"	f
+GetCommonChatRecord	gxlua_chesscard/commonmsg/commonchat.lua	/^function GetCommonChatRecord()$/;"	f
+GetCommonHonorRecord	gxlua_chesscard/commonmsg/commonchat.lua	/^function GetCommonHonorRecord()$/;"	f
+MsgCache	gxlua_chesscard/commonmsg/commonchat.lua	/^function MsgCache(info, cacheSource, max)$/;"	f
+MsgCacheGet	gxlua_chesscard/commonmsg/commonchat.lua	/^function MsgCacheGet(cacheSource)$/;"	f
+LoginClientTask.EmailRegistReturnCreateAccountLoginUserPmd_S	gxlua_chesscard/commonmsg/commonuserinfo.lua	/^LoginClientTask.EmailRegistReturnCreateAccountLoginUserPmd_S= function(task, cmd)$/;"	f
+Net.CmdUserBaseInfoRequestLbyCmd_C 	gxlua_chesscard/commonmsg/commonuserinfo.lua	/^Net.CmdUserBaseInfoRequestLbyCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdUserInfoModifyRequestLobyCmd_C 	gxlua_chesscard/commonmsg/commonuserinfo.lua	/^Net.CmdUserInfoModifyRequestLobyCmd_C = function(cmd, laccount)$/;"	f
+Net.PmdEmailRegistRequestCreateAccountLoginUserPmd_C 	gxlua_chesscard/commonmsg/commonuserinfo.lua	/^Net.PmdEmailRegistRequestCreateAccountLoginUserPmd_C = function(cmd, laccount) $/;"	f
+AddBlackWhiteList	gxlua_chesscard/control/BlackWhiteMgr.lua	/^function AddBlackWhiteList(datas, isAuto)$/;"	f
+AloneExecuteBlackWhiteInfo	gxlua_chesscard/control/BlackWhiteMgr.lua	/^function AloneExecuteBlackWhiteInfo(gameId, uid, profit)$/;"	f
+CompareBlackWhiteInfo	gxlua_chesscard/control/BlackWhiteMgr.lua	/^function CompareBlackWhiteInfo(info1, info2)$/;"	f
+DelBlackWhiteList	gxlua_chesscard/control/BlackWhiteMgr.lua	/^function DelBlackWhiteList(ids)$/;"	f
+DelErrorBlackWhiteInfo	gxlua_chesscard/control/BlackWhiteMgr.lua	/^function DelErrorBlackWhiteInfo(blackWhiteInfo)$/;"	f
+ExecuteBlackWhiteInfo	gxlua_chesscard/control/BlackWhiteMgr.lua	/^function ExecuteBlackWhiteInfo(gameId, users, bankerUid, roundId)$/;"	f
+GetBestBlackWhiteInfo	gxlua_chesscard/control/BlackWhiteMgr.lua	/^function GetBestBlackWhiteInfo(gameId, users, bankerUid)$/;"	f
+GetBlackWhiteId	gxlua_chesscard/control/BlackWhiteMgr.lua	/^function GetBlackWhiteId()$/;"	f
+GetBlackWhiteInfo	gxlua_chesscard/control/BlackWhiteMgr.lua	/^function GetBlackWhiteInfo(gameId, uid)$/;"	f
+InitBlackWhiteId	gxlua_chesscard/control/BlackWhiteMgr.lua	/^function InitBlackWhiteId()$/;"	f
+ModBlackWhiteList	gxlua_chesscard/control/BlackWhiteMgr.lua	/^function ModBlackWhiteList(data)$/;"	f
+ReqBlackWhiteList	gxlua_chesscard/control/BlackWhiteMgr.lua	/^function ReqBlackWhiteList(data)$/;"	f
+CheckProtect	gxlua_chesscard/control/ProtectMgr.lua	/^function CheckProtect(gameId, users, bankerUid, protectChips, protectRetn)$/;"	f
+CreateProtectInfo	gxlua_chesscard/control/ProtectMgr.lua	/^function CreateProtectInfo(gameId, uid, chips, type, protectRetn)$/;"	f
+ExecuteProtectInfo	gxlua_chesscard/control/ProtectMgr.lua	/^function ExecuteProtectInfo(gameId, users, bankerUid, roundId)$/;"	f
+GetProfit	gxlua_chesscard/control/ProtectMgr.lua	/^function GetProfit(roundId, uid, isBanker)$/;"	f
+GetProtectKey	gxlua_chesscard/control/ProtectMgr.lua	/^function GetProtectKey(gameId, uid)$/;"	f
+UpdateProtectInfo	gxlua_chesscard/control/ProtectMgr.lua	/^function UpdateProtectInfo(gameId, users, bankerUid, roundId, protectChips, protectRetn)$/;"	f
+Init	gxlua_chesscard/db/chessdbinit.lua	/^function Init()$/;"	f
+CmdRandRoomCfgInfoGetByGameIdRoomTypeUserRemainder	gxlua_chesscard/db/chessroomconfig.lua	/^function CmdRandRoomCfgInfoGetByGameIdRoomTypeUserRemainder(gameId, subGameId, remainder)$/;"	f
+CmdRandRoomCfgInfoGetByGameIdSubGameIdRoomTypeRemainder	gxlua_chesscard/db/chessroomconfig.lua	/^function CmdRandRoomCfgInfoGetByGameIdSubGameIdRoomTypeRemainder(gameId, subGameId, remainder, roomType)$/;"	f
+CmdSubGameConfigGetByGameId	gxlua_chesscard/db/chessroomconfig.lua	/^function CmdSubGameConfigGetByGameId(gameId)$/;"	f
+CmdSubGameInfoGetByGameId	gxlua_chesscard/db/chessroomconfig.lua	/^function CmdSubGameInfoGetByGameId(gameId)$/;"	f
+CmdSubGameRoomConfigGetByGameIdSubGameId	gxlua_chesscard/db/chessroomconfig.lua	/^function CmdSubGameRoomConfigGetByGameIdSubGameId(gameId, subGameId)$/;"	f
+CmdSubGameRoomInfoGetByGameIdSubgameIdRoomType	gxlua_chesscard/db/chessroomconfig.lua	/^function CmdSubGameRoomInfoGetByGameIdSubgameIdRoomType(gameId, subGameId, roomType)$/;"	f
+CmdGetSubGameIdRoomTypeByRoomKey	gxlua_chesscard/db/chessroominfodb.lua	/^function CmdGetSubGameIdRoomTypeByRoomKey(key)$/;"	f
+CmdRoomKeyGetBySubGameIdRoomType	gxlua_chesscard/db/chessroominfodb.lua	/^function CmdRoomKeyGetBySubGameIdRoomType(subGameId, roomType)$/;"	f
+CreateRoomInfo	gxlua_chesscard/db/chessroominfodb.lua	/^function CreateRoomInfo(gameId, roomId, profitPercent, roomName, stockThreshold, stock, stockBoss, bonusPercent, pumpPercent)$/;"	f
+GetRoomAllInfo	gxlua_chesscard/db/chessroominfodb.lua	/^function GetRoomAllInfo(gameId)$/;"	f
+GetRoomInfo	gxlua_chesscard/db/chessroominfodb.lua	/^function GetRoomInfo(gameId, roomId, profitPercent, roomName, stockThreshold, stock, stockBoss, bonusPercent, pumpPercent)$/;"	f
+InitRoomInfoDb	gxlua_chesscard/db/chessroominfodb.lua	/^function InitRoomInfoDb(gameId)$/;"	f
+InitUnifiedRoomInfoDb	gxlua_chesscard/db/chessroominfodb.lua	/^function InitUnifiedRoomInfoDb(gameId, profitPercent, roomName, stockThreshold, stock, stockBoss, bonusPercent, pumpPercent)$/;"	f
+ResetRoomStock	gxlua_chesscard/db/chessroominfodb.lua	/^function ResetRoomStock(gameId, roomId, stock)$/;"	f
+RoomStockReduce	gxlua_chesscard/db/chessroominfodb.lua	/^function RoomStockReduce(gameId, roomId, reduceChips)$/;"	f
+SaveRoomData	gxlua_chesscard/db/chessroominfodb.lua	/^function SaveRoomData(roomdata)$/;"	f
+SaveRoomInfo	gxlua_chesscard/db/chessroominfodb.lua	/^function SaveRoomInfo(gameId, roomId, roomInfo)$/;"	f
+CheckNickName	gxlua_chesscard/db/chessuserinfodb.lua	/^function CheckNickName(userData)$/;"	f
+Http.ReturnChangeHeadUrl 	gxlua_chesscard/db/chessuserinfodb.lua	/^Http.ReturnChangeHeadUrl = function (cmd,laccount)$/;"	f
+IsRobot	gxlua_chesscard/db/chessuserinfodb.lua	/^function IsRobot(uid)$/;"	f
+RChipsRankGet	gxlua_chesscard/db/chessuserinfodb.lua	/^function RChipsRankGet(num)$/;"	f
+RUserBaseInfoGet	gxlua_chesscard/db/chessuserinfodb.lua	/^function RUserBaseInfoGet(userInfo)$/;"	f
+RUserChipsGet	gxlua_chesscard/db/chessuserinfodb.lua	/^function RUserChipsGet(uid)$/;"	f
+RUserChipsRankGet	gxlua_chesscard/db/chessuserinfodb.lua	/^function RUserChipsRankGet(uid)	$/;"	f
+RUserGiftCouponsGet	gxlua_chesscard/db/chessuserinfodb.lua	/^function RUserGiftCouponsGet(uid)$/;"	f
+RUserInfoGet	gxlua_chesscard/db/chessuserinfodb.lua	/^function RUserInfoGet(uid)$/;"	f
+RUserInfoGetByPlatidPlataccount	gxlua_chesscard/db/chessuserinfodb.lua	/^function RUserInfoGetByPlatidPlataccount(platid, plataccount)$/;"	f
+RUserLoginGet	gxlua_chesscard/db/chessuserinfodb.lua	/^function RUserLoginGet(uid, initChips)$/;"	f
+RUserMahjongCardGet	gxlua_chesscard/db/chessuserinfodb.lua	/^function RUserMahjongCardGet(uid)$/;"	f
+RUserMahjongDiamondGet	gxlua_chesscard/db/chessuserinfodb.lua	/^function RUserMahjongDiamondGet(uid)$/;"	f
+RUserPlatInfoGet	gxlua_chesscard/db/chessuserinfodb.lua	/^function RUserPlatInfoGet(uid)$/;"	f
+RandomIcon	gxlua_chesscard/db/chessuserinfodb.lua	/^function RandomIcon()$/;"	f
+RequstChangeHeadUrl	gxlua_chesscard/db/chessuserinfodb.lua	/^function RequstChangeHeadUrl(uid, headUrl)$/;"	f
+SaveUserData	gxlua_chesscard/db/chessuserinfodb.lua	/^function SaveUserData(userdata)$/;"	f
+UpdateUserPlatInfo	gxlua_chesscard/db/chessuserinfodb.lua	/^function UpdateUserPlatInfo(userInfo, bUpdate)$/;"	f
+UserChipsExchange	gxlua_chesscard/db/chessuserinfodb.lua	/^function UserChipsExchange(srcUid, dstUid, chips)$/;"	f
+WBankChipsChange	gxlua_chesscard/db/chessuserinfodb.lua	/^function WBankChipsChange(uid, type, bankChips)$/;"	f
+WBankchipsExChange	gxlua_chesscard/db/chessuserinfodb.lua	/^function WBankchipsExChange(uid, chips, exchangeType)$/;"	f
+WCharmsChange	gxlua_chesscard/db/chessuserinfodb.lua	/^function WCharmsChange(uid, changeType, charms)$/;"	f
+WChipsChange	gxlua_chesscard/db/chessuserinfodb.lua	/^function WChipsChange(uid, type, chips, desc)$/;"	f
+WChipsRecharge	gxlua_chesscard/db/chessuserinfodb.lua	/^function WChipsRecharge(uid, chips)$/;"	f
+WChipsRedeemBack	gxlua_chesscard/db/chessuserinfodb.lua	/^function WChipsRedeemBack(uid, chips)$/;"	f
+WChipsSet	gxlua_chesscard/db/chessuserinfodb.lua	/^function WChipsSet(uid, chips)$/;"	f
+WGiftCouponsChange	gxlua_chesscard/db/chessuserinfodb.lua	/^function WGiftCouponsChange(uid, type, giftCoupons)$/;"	f
+WMahjongCardChange	gxlua_chesscard/db/chessuserinfodb.lua	/^function WMahjongCardChange(uid, type, num, desc)$/;"	f
+WMahjongCardSet	gxlua_chesscard/db/chessuserinfodb.lua	/^function WMahjongCardSet(uid, mahjongCard)$/;"	f
+WMahjongDiamondChange	gxlua_chesscard/db/chessuserinfodb.lua	/^function WMahjongDiamondChange(uid, type, num, desc)$/;"	f
+WMahjongDiamondSet	gxlua_chesscard/db/chessuserinfodb.lua	/^function WMahjongDiamondSet(uid, mahjongDiamond)$/;"	f
+WMoveBankerChipsToChips	gxlua_chesscard/db/chessuserinfodb.lua	/^function WMoveBankerChipsToChips(uid)$/;"	f
+WMoveChipsToBankerChips	gxlua_chesscard/db/chessuserinfodb.lua	/^function WMoveChipsToBankerChips(uid, bankerChips)$/;"	f
+WNegativePointsClear	gxlua_chesscard/db/chessuserinfodb.lua	/^function WNegativePointsClear(uid)$/;"	f
+WPointsChange	gxlua_chesscard/db/chessuserinfodb.lua	/^function WPointsChange(uid, changeType, points)$/;"	f
+WUpdateBankerChips	gxlua_chesscard/db/chessuserinfodb.lua	/^function WUpdateBankerChips(uid, oriBankerChips, addProfit)$/;"	f
+WUserConstuct	gxlua_chesscard/db/chessuserinfodb.lua	/^function WUserConstuct(uid, initChips)$/;"	f
+WUserInfoModity	gxlua_chesscard/db/chessuserinfodb.lua	/^function WUserInfoModity(uid, modifyInfo)$/;"	f
+WUserInfoUpdate	gxlua_chesscard/db/chessuserinfodb.lua	/^function WUserInfoUpdate(uid, data)$/;"	f
+updateMaxInfo	gxlua_chesscard/db/chessuserinfodb.lua	/^function updateMaxInfo(data)$/;"	f
+CmdGive	gxlua_chesscard/facegift/chessfacegiftlogic.lua	/^function CmdGive(uid, roomId, giftId, revSet, costType)$/;"	f
+Net.CmdGiveFaceGiftCmd_C 	gxlua_chesscard/facegift/chessmsgfacegift.lua	/^Net.CmdGiveFaceGiftCmd_C = function(cmd, laccount)$/;"	f
+AddGmCommand 	gxlua_chesscard/gm/chessgm.lua	/^AddGmCommand = function(name, para)$/;"	f
+GmCommandInit 	gxlua_chesscard/gm/chessgm.lua	/^GmCommandInit = function()$/;"	f
+SysGmBroadAdd 	gxlua_chesscard/gm/chessgm.lua	/^SysGmBroadAdd = function(task)$/;"	f
+SysGmBroadDelete 	gxlua_chesscard/gm/chessgm.lua	/^SysGmBroadDelete = function(taskId)$/;"	f
+SysGmBroadTimer 	gxlua_chesscard/gm/chessgm.lua	/^SysGmBroadTimer = function(taskId, timer)$/;"	f
+GetRankOpenTime	gxlua_chesscard/gm/chessgmchehangrankmgr.lua	/^function GetRankOpenTime()$/;"	f
+GmCtrRankOpenTime	gxlua_chesscard/gm/chessgmchehangrankmgr.lua	/^function GmCtrRankOpenTime(startTime, endTime)$/;"	f
+InitRankCtr	gxlua_chesscard/gm/chessgmchehangrankmgr.lua	/^function InitRankCtr()$/;"	f
+SaveRankCtr	gxlua_chesscard/gm/chessgmchehangrankmgr.lua	/^function SaveRankCtr(rankCtr)$/;"	f
+AddGlobalMail	gxlua_chesscard/gm/chessgmmailmgr.lua	/^function AddGlobalMail(mailInfo)$/;"	f
+GetEmailId	gxlua_chesscard/gm/chessgmmailmgr.lua	/^function GetEmailId()$/;"	f
+InitEmailId	gxlua_chesscard/gm/chessgmmailmgr.lua	/^function InitEmailId()$/;"	f
+if type(MailMgr.UpdateUserMail) 	gxlua_chesscard/gm/chessgmmailmgr.lua	/^	if type(MailMgr.UpdateUserMail) == "function" then$/;"	f
+GetDetail	gxlua_chesscard/gm/chessgmstaticmgr.lua	/^function GetDetail(gameId, detail)$/;"	f
+RepairRedPacketsData	gxlua_chesscard/gm/chessgmstaticmgr.lua	/^function RepairRedPacketsData()$/;"	f
+UpDownChipsWarn	gxlua_chesscard/gm/chessgmstaticmgr.lua	/^function UpDownChipsWarn()$/;"	f
+CheckUserPunish	gxlua_chesscard/gm/chessgmuserinfomgr.lua	/^function CheckUserPunish(uid, ptype)$/;"	f
+DeletePunishUser	gxlua_chesscard/gm/chessgmuserinfomgr.lua	/^function DeletePunishUser(taskid)$/;"	f
+GetPunishList	gxlua_chesscard/gm/chessgmuserinfomgr.lua	/^function GetPunishList(charid)$/;"	f
+GetUserInfo	gxlua_chesscard/gm/chessgmuserinfomgr.lua	/^function GetUserInfo(uid, userInfo)$/;"	f
+PunishUser	gxlua_chesscard/gm/chessgmuserinfomgr.lua	/^function PunishUser(data)$/;"	f
+SearchByRange	gxlua_chesscard/gm/chessgmuserinfomgr.lua	/^function SearchByRange(starttime, endtime, lstime, letime, mincoin, maxcoin, curpage, perpage, ranktype)$/;"	f
+GmSvr.PmdActivitySwitchGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgactivityswitch.lua	/^GmSvr.PmdActivitySwitchGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdAddBlackWhitelistGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgblackwhite.lua	/^GmSvr.PmdAddBlackWhitelistGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdDelBlackWhitelistGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgblackwhite.lua	/^GmSvr.PmdDelBlackWhitelistGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdModBlackWhitelistGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgblackwhite.lua	/^GmSvr.PmdModBlackWhitelistGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestBlackWhitelistGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgblackwhite.lua	/^GmSvr.PmdRequestBlackWhitelistGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GMClientTask.ReturnBroadcastListGmUserPmd_S 	gxlua_chesscard/gm/chessmsgbroadcastlist.lua	/^GMClientTask.ReturnBroadcastListGmUserPmd_S = function(task, cmd) $/;"	f
+GmSvr.GmClientInitOk 	gxlua_chesscard/gm/chessmsgbroadcastlist.lua	/^GmSvr.GmClientInitOk = function(cmd, laccount)$/;"	f
+GmSvr.PmdBroadcastDeleteGmUserPmd_C	gxlua_chesscard/gm/chessmsgbroadcastlist.lua	/^GmSvr.PmdBroadcastDeleteGmUserPmd_C= function(cmd, laccount)$/;"	f
+GmSvr.PmdBroadcastNewGmUserPmd_C 	gxlua_chesscard/gm/chessmsgbroadcastlist.lua	/^GmSvr.PmdBroadcastNewGmUserPmd_C = function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestItemTypeInfoGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgmail.lua	/^GmSvr.PmdRequestItemTypeInfoGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestSendMailGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgmail.lua	/^GmSvr.PmdRequestSendMailGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.CmdOperateSwitch_C 	gxlua_chesscard/gm/chessmsgoperate.lua	/^GmSvr.CmdOperateSwitch_C = function(cmd, laccount)$/;"	f
+GmSvr.GmOperateSwitch_C 	gxlua_chesscard/gm/chessmsgoperate.lua	/^GmSvr.GmOperateSwitch_C = function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestPointDetailGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgpoint.lua	/^GmSvr.PmdRequestPointDetailGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestPointReportGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgpoint.lua	/^GmSvr.PmdRequestPointReportGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.Help	gxlua_chesscard/gm/chessmsgroomstock.lua	/^GmSvr.Help= function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestModStockInfoGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgroomstock.lua	/^GmSvr.PmdRequestModStockInfoGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestStockInfoGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgroomstock.lua	/^GmSvr.PmdRequestStockInfoGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestedSubgameListGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgroomstock.lua	/^GmSvr.PmdRequestedSubgameListGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.RequestRoomStockGmCmd_C 	gxlua_chesscard/gm/chessmsgroomstock.lua	/^GmSvr.RequestRoomStockGmCmd_C = function(cmd, laccount)$/;"	f
+GameRecordConstruct	gxlua_chesscard/gm/chessmsgstatic.lua	/^function GameRecordConstruct(cmd, staticInfo, maxPage, userInfo)$/;"	f
+GetPlatUserInfo	gxlua_chesscard/gm/chessmsgstatic.lua	/^function GetPlatUserInfo(v)$/;"	f
+GmSvr.PmdLobbyGameDetailHistoryGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgstatic.lua	/^GmSvr.PmdLobbyGameDetailHistoryGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdLobbyGameHistoryGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgstatic.lua	/^GmSvr.PmdLobbyGameHistoryGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestBettingDetailGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgstatic.lua	/^GmSvr.PmdRequestBettingDetailGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestRedPacketsGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgstatic.lua	/^GmSvr.PmdRequestRedPacketsGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestUserItemsHistoryListGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgstatic.lua	/^GmSvr.PmdRequestUserItemsHistoryListGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestWinningListGmUserPmd_CS 	gxlua_chesscard/gm/chessmsgstatic.lua	/^GmSvr.PmdRequestWinningListGmUserPmd_CS = function(cmd, laccount)$/;"	f
+LoginClientTask.PlatQueryGamerecordSdkPmd_CS 	gxlua_chesscard/gm/chessmsgstatic.lua	/^LoginClientTask.PlatQueryGamerecordSdkPmd_CS =function(task, cmd)$/;"	f
+LoginClientTask.PlatQueryPlatDailySdkPmd_CS	gxlua_chesscard/gm/chessmsgstatic.lua	/^LoginClientTask.PlatQueryPlatDailySdkPmd_CS=function(task, cmd)$/;"	f
+LoginClientTask.PlatQueryPlatReportSdkPmd_CS	gxlua_chesscard/gm/chessmsgstatic.lua	/^LoginClientTask.PlatQueryPlatReportSdkPmd_CS=function(task, cmd)$/;"	f
+LoginClientTask.PlatQueryUserListSdkPmd_CS	gxlua_chesscard/gm/chessmsgstatic.lua	/^LoginClientTask.PlatQueryUserListSdkPmd_CS=function(task, cmd)$/;"	f
+QueryPlatGameRecord	gxlua_chesscard/gm/chessmsgstatic.lua	/^function QueryPlatGameRecord(platList, cmd, perPage, curPage, startTime, endTime)$/;"	f
+QueryPlatUserInfo	gxlua_chesscard/gm/chessmsgstatic.lua	/^function QueryPlatUserInfo(platList, cmd, perPage, curPage)$/;"	f
+QueryUserGameRecord	gxlua_chesscard/gm/chessmsgstatic.lua	/^function QueryUserGameRecord(userInfo, cmd, perPage, curPage, startTime, endTime)$/;"	f
+QueryUserInfo	gxlua_chesscard/gm/chessmsgstatic.lua	/^function QueryUserInfo(userInfo, cmd)$/;"	f
+GmCmd.SendUserSceneToMe 	gxlua_chesscard/gm/chessmsguserinfo.lua	/^GmCmd.SendUserSceneToMe = function(cmd, laccount)$/;"	f
+GmSvr.PmdDeletePunishUserGmUserPmd_C	gxlua_chesscard/gm/chessmsguserinfo.lua	/^GmSvr.PmdDeletePunishUserGmUserPmd_C= function(cmd, laccount)$/;"	f
+GmSvr.PmdLobbyChgUserPwdGmUserPmd_CS 	gxlua_chesscard/gm/chessmsguserinfo.lua	/^GmSvr.PmdLobbyChgUserPwdGmUserPmd_CS = function(cmd, laccount)$/;"	f
+GmSvr.PmdPunishUserGmUserPmd_C	gxlua_chesscard/gm/chessmsguserinfo.lua	/^GmSvr.PmdPunishUserGmUserPmd_C= function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestModifyUserInfoGmUserPmd_C 	gxlua_chesscard/gm/chessmsguserinfo.lua	/^GmSvr.PmdRequestModifyUserInfoGmUserPmd_C = function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestOnlineUserInfoGmUserPmd_CS	gxlua_chesscard/gm/chessmsguserinfo.lua	/^GmSvr.PmdRequestOnlineUserInfoGmUserPmd_CS= function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestPunishListGmUserPmd_C	gxlua_chesscard/gm/chessmsguserinfo.lua	/^GmSvr.PmdRequestPunishListGmUserPmd_C= function(cmd, laccount)$/;"	f
+GmSvr.PmdRequestUserInfoGmUserPmd_C 	gxlua_chesscard/gm/chessmsguserinfo.lua	/^GmSvr.PmdRequestUserInfoGmUserPmd_C = function(cmd, laccount)$/;"	f
+GmSvr.SmdHttpGmCommandLoginSmd_SC 	gxlua_chesscard/gm/chessmsguserinfo.lua	/^GmSvr.SmdHttpGmCommandLoginSmd_SC = function(cmd, laccount)$/;"	f
+if UserInfo ~	gxlua_chesscard/gm/chessmsguserinfo.lua	/^			if UserInfo ~= nil and type(UserInfo.CommonChangeUserCard) == "function" then$/;"	f
+if UserInfo ~	gxlua_chesscard/gm/chessmsguserinfo.lua	/^			if UserInfo ~= nil and type(UserInfo.CommonChangeUserDiamond) == "function" then$/;"	f
+CheckIntoGame	gxlua_chesscard/intogame/intogamemgr.lua	/^function CheckIntoGame(userData)$/;"	f
+ClearUserCurStatus	gxlua_chesscard/intogame/intogamemgr.lua	/^function ClearUserCurStatus(userData)$/;"	f
+LobbyCheckIntoGame	gxlua_chesscard/intogame/intogamemgr.lua	/^function LobbyCheckIntoGame(uid, gameId, zoneId)$/;"	f
+ReloadMapGameName	gxlua_chesscard/intogame/intogamemgr.lua	/^function ReloadMapGameName()$/;"	f
+Net.CmdCheckIntoGameCmd_C 	gxlua_chesscard/intogame/intogamemsg.lua	/^Net.CmdCheckIntoGameCmd_C = function(cmd, laccount)$/;"	f
+CheckSendChipsWarnToLobby	gxlua_chesscard/lobby/LobbyClientMgr.lua	/^function CheckSendChipsWarnToLobby(uid)$/;"	f
+SendBroadToLobby	gxlua_chesscard/lobby/LobbyClientMgr.lua	/^function SendBroadToLobby(uid, nickName, bMan, chatPos, chatType, brdInfo)$/;"	f
+SendChipsWarnToLobby	gxlua_chesscard/lobby/LobbyClientMgr.lua	/^function SendChipsWarnToLobby(bankruptInfo)$/;"	f
+SendCmdToLobby	gxlua_chesscard/lobby/LobbyClientMgr.lua	/^function SendCmdToLobby(doinfo,data)$/;"	f
+SendEnterRoomToLobby	gxlua_chesscard/lobby/LobbyClientMgr.lua	/^function SendEnterRoomToLobby(roomId, uid, pos)$/;"	f
+SendLeaveRoomToLobby	gxlua_chesscard/lobby/LobbyClientMgr.lua	/^function SendLeaveRoomToLobby(uid,roomid)$/;"	f
+SendRemoveRoomToLobby	gxlua_chesscard/lobby/LobbyClientMgr.lua	/^function SendRemoveRoomToLobby(roomId, hostTip)$/;"	f
+Lby.CmdChangeUserNbrLobbyCmd_CS 	gxlua_chesscard/lobby/LobbyClientMsg.lua	/^Lby.CmdChangeUserNbrLobbyCmd_CS = function(cmd)$/;"	f
+Lby.CmdCreateRoomRoomLobbyCmd_S	gxlua_chesscard/lobby/LobbyClientMsg.lua	/^Lby.CmdCreateRoomRoomLobbyCmd_S= function(cmd)$/;"	f
+Lby.CmdSendEnterRoomLobbyCmd_S	gxlua_chesscard/lobby/LobbyClientMsg.lua	/^Lby.CmdSendEnterRoomLobbyCmd_S= function(cmd)$/;"	f
+Lby.CmdUserDiamondChangeLobbyCmd_S 	gxlua_chesscard/lobby/LobbyClientMsg.lua	/^Lby.CmdUserDiamondChangeLobbyCmd_S = function(cmd)$/;"	f
+Lby.CmdUserDiamondWinLobbyCmd_CS 	gxlua_chesscard/lobby/LobbyClientMsg.lua	/^Lby.CmdUserDiamondWinLobbyCmd_CS = function(cmd)$/;"	f
+Lby.CmdSendChipsWarnLobbyCmd_S	gxlua_chesscard/lobby/LobbyTaskMgr.lua	/^Lby.CmdSendChipsWarnLobbyCmd_S= function(cmd, laccount)$/;"	f
+Net.CmdPri_LuckMoneyQueryOne_C 	gxlua_chesscard/luckmoney/MsgLuckMoney_Pri.lua	/^Net.CmdPri_LuckMoneyQueryOne_C = function(cmd, laccount)$/;"	f
+Net.CmdPri_LuckMoneyReceive_C 	gxlua_chesscard/luckmoney/MsgLuckMoney_Pri.lua	/^Net.CmdPri_LuckMoneyReceive_C = function(cmd, laccount)$/;"	f
+Net.CmdPri_LuckMoneyRecord_C 	gxlua_chesscard/luckmoney/MsgLuckMoney_Pri.lua	/^Net.CmdPri_LuckMoneyRecord_C = function(cmd, laccount)$/;"	f
+Net.CmdPri_LuckMoneySend_C 	gxlua_chesscard/luckmoney/MsgLuckMoney_Pri.lua	/^Net.CmdPri_LuckMoneySend_C = function(cmd, laccount)$/;"	f
+CmdCheckLuckMoney	gxlua_chesscard/luckmoney/Pri_LuckMoneyMgr.lua	/^function CmdCheckLuckMoney(uid)$/;"	f
+CmdDbCreate	gxlua_chesscard/luckmoney/Pri_LuckMoneyMgr.lua	/^function CmdDbCreate()$/;"	f
+CmdLuckMoneyGetById	gxlua_chesscard/luckmoney/Pri_LuckMoneyMgr.lua	/^function CmdLuckMoneyGetById(_id)$/;"	f
+CmdReturnLuckMoney	gxlua_chesscard/luckmoney/Pri_LuckMoneyMgr.lua	/^function CmdReturnLuckMoney(id, bForce)$/;"	f
+CmdRevceiveLuckMoney	gxlua_chesscard/luckmoney/Pri_LuckMoneyMgr.lua	/^function CmdRevceiveLuckMoney(uid, _id)$/;"	f
+CmdSendLuckMoney	gxlua_chesscard/luckmoney/Pri_LuckMoneyMgr.lua	/^function CmdSendLuckMoney(uidSnd, uidRev, chips, bless)$/;"	f
+LuckMoneyConstuct	gxlua_chesscard/luckmoney/Pri_LuckMoneyMgr.lua	/^function LuckMoneyConstuct(luckMoneyServer)$/;"	f
+LuckMoneyDeConstuct	gxlua_chesscard/luckmoney/Pri_LuckMoneyMgr.lua	/^function LuckMoneyDeConstuct(luckMoneyClient)$/;"	f
+LuckMoneyIdCreate	gxlua_chesscard/luckmoney/Pri_LuckMoneyMgr.lua	/^function LuckMoneyIdCreate()$/;"	f
+ReceiveLuckMoneyGet	gxlua_chesscard/luckmoney/Pri_LuckMoneyMgr.lua	/^function ReceiveLuckMoneyGet(uid)$/;"	f
+SendLuckMoneyGet	gxlua_chesscard/luckmoney/Pri_LuckMoneyMgr.lua	/^function SendLuckMoneyGet(uid)$/;"	f
+Net.CmdGetInfoLuckMoneyPubCmd_C 	gxlua_chesscard/luckmoney/msgpubluckmoney.lua	/^Net.CmdGetInfoLuckMoneyPubCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdGetLuckMoneyPubCmd_C 	gxlua_chesscard/luckmoney/msgpubluckmoney.lua	/^Net.CmdGetLuckMoneyPubCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdGetRecordLuckMoneyPubCmd_C 	gxlua_chesscard/luckmoney/msgpubluckmoney.lua	/^Net.CmdGetRecordLuckMoneyPubCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdSendLuckMoneyPubCmd_C 	gxlua_chesscard/luckmoney/msgpubluckmoney.lua	/^Net.CmdSendLuckMoneyPubCmd_C = function(cmd, laccount)$/;"	f
+CmdDbCreate	gxlua_chesscard/luckmoney/publuckmoneymgr.lua	/^function CmdDbCreate()$/;"	f
+CmdGetLuckMoney	gxlua_chesscard/luckmoney/publuckmoneymgr.lua	/^function CmdGetLuckMoney(uid, _id)$/;"	f
+CmdLuckMoneyGetById	gxlua_chesscard/luckmoney/publuckmoneymgr.lua	/^function CmdLuckMoneyGetById(_id)$/;"	f
+CmdSendLuckMoney	gxlua_chesscard/luckmoney/publuckmoneymgr.lua	/^function CmdSendLuckMoney(uid, roomId, chips, number, bless)$/;"	f
+GetRandomChips	gxlua_chesscard/luckmoney/publuckmoneymgr.lua	/^function GetRandomChips(surplusNumber, surplusChips)$/;"	f
+GetRecordLuckMoneyPub	gxlua_chesscard/luckmoney/publuckmoneymgr.lua	/^function GetRecordLuckMoneyPub(uid)$/;"	f
+PubLuckMoneyIdCreate	gxlua_chesscard/luckmoney/publuckmoneymgr.lua	/^function PubLuckMoneyIdCreate()$/;"	f
+RcvLuckMoneyGet	gxlua_chesscard/luckmoney/publuckmoneymgr.lua	/^function RcvLuckMoneyGet(uid)$/;"	f
+SendLuckMoneyGet	gxlua_chesscard/luckmoney/publuckmoneymgr.lua	/^function SendLuckMoneyGet(uid)$/;"	f
+UpdateRcvRecord	gxlua_chesscard/luckmoney/publuckmoneymgr.lua	/^function UpdateRcvRecord(uid, record)$/;"	f
+AgreeApplySendMail	gxlua_chesscard/mail/MailMgr.lua	/^function AgreeApplySendMail(userData, parentData, coin, applyType)$/;"	f
+DeleteUserMail	gxlua_chesscard/mail/MailMgr.lua	/^function DeleteUserMail(uid, mailIds)$/;"	f
+GetListUserMail	gxlua_chesscard/mail/MailMgr.lua	/^function GetListUserMail(uid)$/;"	f
+GetMailInfoByData	gxlua_chesscard/mail/MailMgr.lua	/^function GetMailInfoByData(mailData)$/;"	f
+GetUserMail	gxlua_chesscard/mail/MailMgr.lua	/^function GetUserMail(uid)$/;"	f
+InitUserMail	gxlua_chesscard/mail/MailMgr.lua	/^function InitUserMail(uid)$/;"	f
+ReadMail	gxlua_chesscard/mail/MailMgr.lua	/^function ReadMail(uid, id)$/;"	f
+RefuseApplySendMail	gxlua_chesscard/mail/MailMgr.lua	/^function RefuseApplySendMail(uid, parentData, coin, applyType, applyTime)$/;"	f
+SaveUserMail	gxlua_chesscard/mail/MailMgr.lua	/^function SaveUserMail(userMailData)$/;"	f
+UpdateUserMail	gxlua_chesscard/mail/MailMgr.lua	/^function UpdateUserMail(uid)$/;"	f
+Net.CmdDeleteMailCmd_C 	gxlua_chesscard/mail/MsgMail.lua	/^Net.CmdDeleteMailCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdGetListMailCmd_C 	gxlua_chesscard/mail/MsgMail.lua	/^Net.CmdGetListMailCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdReadMailCmd_C 	gxlua_chesscard/mail/MsgMail.lua	/^Net.CmdReadMailCmd_C = function(cmd, laccount)$/;"	f
+EnsureProbability	gxlua_chesscard/operate/luckyturntablemgr.lua	/^function EnsureProbability(uid)$/;"	f
+GetInfoLuckyTurnTable	gxlua_chesscard/operate/luckyturntablemgr.lua	/^function GetInfoLuckyTurnTable(uid)$/;"	f
+GetIntegral	gxlua_chesscard/operate/luckyturntablemgr.lua	/^function GetIntegral(uid, integral)$/;"	f
+GetIntegralByTasks	gxlua_chesscard/operate/luckyturntablemgr.lua	/^function GetIntegralByTasks(uid, info)$/;"	f
+Init	gxlua_chesscard/operate/luckyturntablemgr.lua	/^function Init(uid, isFollow)$/;"	f
+RandomReward	gxlua_chesscard/operate/luckyturntablemgr.lua	/^function RandomReward(uid)$/;"	f
+TurnLuckyTurnTable	gxlua_chesscard/operate/luckyturntablemgr.lua	/^function TurnLuckyTurnTable(uid)$/;"	f
+Update	gxlua_chesscard/operate/luckyturntablemgr.lua	/^function Update(info)$/;"	f
+Net.CmdGetInfoLuckyTurnTableCmd_C 	gxlua_chesscard/operate/msgluckyturntable.lua	/^Net.CmdGetInfoLuckyTurnTableCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdGetRecordLuckyTurnTableCmd_C 	gxlua_chesscard/operate/msgluckyturntable.lua	/^Net.CmdGetRecordLuckyTurnTableCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdTurnLuckyTurnTableCmd_C 	gxlua_chesscard/operate/msgluckyturntable.lua	/^Net.CmdTurnLuckyTurnTableCmd_C = function(cmd, laccount)$/;"	f
+GetRecords	gxlua_chesscard/operate/operaterecordmgr.lua	/^function GetRecords(uid, operateType)$/;"	f
+SaveRecords	gxlua_chesscard/operate/operaterecordmgr.lua	/^function SaveRecords(uid, operateType, awardName, goodId, goodNbr, goodType)$/;"	f
+CheckInOprateTime	gxlua_chesscard/operate/operateswitchmgr.lua	/^function CheckInOprateTime(opAcId)$/;"	f
+Init	gxlua_chesscard/operate/operateswitchmgr.lua	/^function Init(opAcId)$/;"	f
+SetOprateTime	gxlua_chesscard/operate/operateswitchmgr.lua	/^function SetOprateTime(opAcId, openType, isOpen, appoint, between)$/;"	f
+CmdRoomDbInit	gxlua_chesscard/roomconfig/RoomDb.lua	/^function CmdRoomDbInit(gameId) $/;"	f
+CmdRoomKeyGetBySubGameIdRoomType	gxlua_chesscard/roomconfig/RoomDb.lua	/^function CmdRoomKeyGetBySubGameIdRoomType(subGameId, roomType)$/;"	f
+CmdRoomStackGetByGameIdKey	gxlua_chesscard/roomconfig/RoomDb.lua	/^function CmdRoomStackGetByGameIdKey(gameId, key)$/;"	f
+CmdRoomStackGetByGameIdsubGameIdRoomType	gxlua_chesscard/roomconfig/RoomDb.lua	/^function CmdRoomStackGetByGameIdsubGameIdRoomType(gameId, subGameId, roomType)$/;"	f
+CmdRoomStackSaveByGameIdRoomData	gxlua_chesscard/roomconfig/RoomDb.lua	/^function CmdRoomStackSaveByGameIdRoomData(gameId, roomData)$/;"	f
+AddItemsHistory	gxlua_chesscard/statistics/chessitemshistory.lua	/^function AddItemsHistory(uid, itemId, balance, diff, desc)$/;"	f
+GetItemsHistory	gxlua_chesscard/statistics/chessitemshistory.lua	/^function GetItemsHistory(uid, itemId)$/;"	f
+CreateDb	gxlua_chesscard/statistics/chessonlinetimes.lua	/^function CreateDb()$/;"	f
+GetOnlineTimesByUidGameId	gxlua_chesscard/statistics/chessonlinetimes.lua	/^function GetOnlineTimesByUidGameId(uid, gameId)$/;"	f
+InitUserOnlineTimes	gxlua_chesscard/statistics/chessonlinetimes.lua	/^function InitUserOnlineTimes(uid)$/;"	f
+UpdateOnlineTimes	gxlua_chesscard/statistics/chessonlinetimes.lua	/^function UpdateOnlineTimes(uid, gameId, upTimes, downTimes)$/;"	f
+CmdAllGamePlayNmuberGetByUid	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdAllGamePlayNmuberGetByUid(uid, timestamp)$/;"	f
+CmdAllGameWinNmuberGetByUid	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdAllGameWinNmuberGetByUid(uid, timestamp)$/;"	f
+CmdGameBankerInfoGetByBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGameBankerInfoGetByBetween(timestamp1, timestamp2)$/;"	f
+CmdGameBankerInfoGetByGameIdBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGameBankerInfoGetByGameIdBetween(gameId, timestamp1, timestamp2, openSource)$/;"	f
+CmdGameBankerInfoGetByGameIdUidBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGameBankerInfoGetByGameIdUidBetween(uid, gameId, timestamp1, timestamp2, skip, limit, openSource)$/;"	f
+CmdGameBankerInfoGetByUidBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGameBankerInfoGetByUidBetween(uid, timestamp1, timestamp2)$/;"	f
+CmdGameBankerNmuberGetByGameIdUid	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGameBankerNmuberGetByGameIdUid(uid, gameId, timestamp)$/;"	f
+CmdGamePlayInfoGetByBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGamePlayInfoGetByBetween(timestamp1, timestamp2, skip, limit)$/;"	f
+CmdGamePlayInfoGetByGameIdBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGamePlayInfoGetByGameIdBetween(gameId, timestamp1, timestamp2, skip, limit, openSource)$/;"	f
+CmdGamePlayInfoGetByGameIdUidBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGamePlayInfoGetByGameIdUidBetween(uid, gameId, timestamp1, timestamp2, skip, limit, openSource)$/;"	f
+CmdGamePlayInfoGetByUidBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGamePlayInfoGetByUidBetween(uid, timestamp1, timestamp2)$/;"	f
+CmdGamePlayInfoGetByUidBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGamePlayInfoGetByUidBetween(uid, timestamp1, timestamp2, skip, limit)$/;"	f
+CmdGamePlayNmuberGetByGameIdUid	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGamePlayNmuberGetByGameIdUid(uid, gameId, timestamp)$/;"	f
+CmdGamePlayNmuberGetByGameIdUidBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGamePlayNmuberGetByGameIdUidBetween(uid, gameId, timestamp1, timestamp2)$/;"	f
+CmdGamePlayNmuberGetByUidBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGamePlayNmuberGetByUidBetween(uid, timestamp1, timestamp2)$/;"	f
+CmdGameWinAllBeBossNmuberGetByGameIdUid	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGameWinAllBeBossNmuberGetByGameIdUid(uid, gameId, timestamp)$/;"	f
+CmdGameWinNmuberGetByGameIdUid	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGameWinNmuberGetByGameIdUid(uid, gameId, timestamp)$/;"	f
+CmdGameWinNmuberGetByGameIdUidBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGameWinNmuberGetByGameIdUidBetween(uid, gameId, timestamp1, timestamp2)$/;"	f
+CmdGameWinOverThresholdNmuberGetByGameIdUid	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdGameWinOverThresholdNmuberGetByGameIdUid(uid, gameId, threshold, timestamp)$/;"	f
+CmdPlayInfoGetByPlatidList	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdPlayInfoGetByPlatidList(platidList, timestamp1, timestamp2, skip, limit)$/;"	f
+CmdRecordUserBeBanker	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdRecordUserBeBanker(uid, gameId, carryBankerChips, remainderBankerChips, bWinAll, roundId, openSource, remainder, pump)$/;"	f
+CmdRecordUserProfitBet	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdRecordUserProfitBet(uid, gameId, betChips, profitChips, roundId, betInfo, lotteryInfo, openSource, isAddItemsHistory, remainder, pump)$/;"	f
+CmdStaticInfoGetByGameIdBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdStaticInfoGetByGameIdBetween(gameId, timestamp1, timestamp2, skip, limit, openSource)$/;"	f
+CmdUserInfoGetByPlatidList	gxlua_chesscard/statistics/chessprofitbet.lua	/^function CmdUserInfoGetByPlatidList(platidList, skip, limit)$/;"	f
+GetRoundId	gxlua_chesscard/statistics/chessprofitbet.lua	/^function GetRoundId()$/;"	f
+GetSlotInvalidPlayNmuberGetByGameIdUid	gxlua_chesscard/statistics/chessprofitbet.lua	/^function GetSlotInvalidPlayNmuberGetByGameIdUid(uid, timestamp)$/;"	f
+GetSlotInvalidPlayNmuberGetByGameIdUidBetween	gxlua_chesscard/statistics/chessprofitbet.lua	/^function GetSlotInvalidPlayNmuberGetByGameIdUidBetween(uid, timestamp1, timestamp2)$/;"	f
+InitRoundId	gxlua_chesscard/statistics/chessprofitbet.lua	/^function InitRoundId()$/;"	f
+QueryPlatDayUserBetByPlatId	gxlua_chesscard/statistics/chessprofitbet.lua	/^function QueryPlatDayUserBetByPlatId(platId, startDay, endDay)$/;"	f
+QueryPlatUserBetByPlatId	gxlua_chesscard/statistics/chessprofitbet.lua	/^function QueryPlatUserBetByPlatId(platId, startDay, endDay)$/;"	f
+CmdGetRecentNumRecord	gxlua_chesscard/statistics/chessprofitbonus.lua	/^function CmdGetRecentNumRecord(gameId, roomId, num)$/;"	f
+CmdGetTopNumRecord	gxlua_chesscard/statistics/chessprofitbonus.lua	/^function CmdGetTopNumRecord(gameId, roomId, topNum)$/;"	f
+CmdRecordOneUserProfitBonus	gxlua_chesscard/statistics/chessprofitbonus.lua	/^function CmdRecordOneUserProfitBonus(uid, gameId, roomId, betChips, profitChips)$/;"	f
+ReturnBonusRecord	gxlua_chesscard/statistics/chessprofitbonus.lua	/^function ReturnBonusRecord(userGroup)$/;"	f
+setmetatable(TableBuYuLobbyGameConfig, {__index 	gxlua_chesscard/table/TableBuYuLobbyGameConfig.lua	/^setmetatable(TableBuYuLobbyGameConfig, {__index = function(__t, __k) if __k == "query" then return function(gameId) return __t[gameId] end end end})$/;"	f
+setmetatable(TableGameRoomConfig, {__index 	gxlua_chesscard/table/TableGameRoomConfig.lua	/^setmetatable(TableGameRoomConfig, {__index = function(__t, __k) if __k == "query" then return function(index) return __t[index] end end end})$/;"	f
+local group0 	gxlua_chesscard/table/TableRobotChat.lua	/^local group0 = function()$/;"	f
+local group1 	gxlua_chesscard/table/TableRobotChat.lua	/^local group1 = function()$/;"	f
+local group2 	gxlua_chesscard/table/TableRobotChat.lua	/^local group2 = function()$/;"	f
+local group3 	gxlua_chesscard/table/TableRobotChat.lua	/^local group3 = function()$/;"	f
+CheckNextTask	gxlua_chesscard/task/taskmgr.lua	/^function CheckNextTask(taskId, curTask)$/;"	f
+CreatDb	gxlua_chesscard/task/taskmgr.lua	/^function CreatDb(gameId)$/;"	f
+GetTaskBestGoal	gxlua_chesscard/task/taskmgr.lua	/^function GetTaskBestGoal(taskId)$/;"	f
+GetTaskInfo	gxlua_chesscard/task/taskmgr.lua	/^function GetTaskInfo(uid)$/;"	f
+GetTaskList	gxlua_chesscard/task/taskmgr.lua	/^function GetTaskList(uid)$/;"	f
+GetTaskReward	gxlua_chesscard/task/taskmgr.lua	/^function GetTaskReward(uid, taskId)$/;"	f
+IsSameDay	gxlua_chesscard/task/taskmgr.lua	/^function IsSameDay(time1, time2)$/;"	f
+IsSameMonth	gxlua_chesscard/task/taskmgr.lua	/^function IsSameMonth(time1, time2)$/;"	f
+TaskUpdate	gxlua_chesscard/task/taskmgr.lua	/^function TaskUpdate(userTasks)$/;"	f
+TriggerTask	gxlua_chesscard/task/taskmgr.lua	/^function TriggerTask(uid, taskType, typer)$/;"	f
+UserTaskConstuct	gxlua_chesscard/task/taskmgr.lua	/^function UserTaskConstuct(uid)$/;"	f
+Net.CmdGetTaskListTaskCmd_C 	gxlua_chesscard/task/taskmsg.lua	/^Net.CmdGetTaskListTaskCmd_C = function(cmd, laccount)$/;"	f
+Net.CmdGetTaskRewardTaskCmd_C 	gxlua_chesscard/task/taskmsg.lua	/^Net.CmdGetTaskRewardTaskCmd_C = function(cmd, laccount)$/;"	f
+Do.TestTcpReq 	gxlua_chesscard/tcplib/chesstcplib.lua	/^Do.TestTcpReq = function(req, laccount)$/;"	f
+MsgConstruct	gxlua_chesscard/tcplib/chesstcplib.lua	/^function MsgConstruct(doinfo, data)$/;"	f
+TcpLaccountGet	gxlua_chesscard/tcplib/chesstcplib.lua	/^function TcpLaccountGet(uid)$/;"	f
+TcpMsgSendEveryOne	gxlua_chesscard/tcplib/chesstcplib.lua	/^function TcpMsgSendEveryOne(doinfo, data)$/;"	f
+TcpMsgSendToMe	gxlua_chesscard/tcplib/chesstcplib.lua	/^function TcpMsgSendToMe(uid, doinfo, data)$/;"	f
+TcpRoomCreate	gxlua_chesscard/tcplib/chesstcplib.lua	/^function TcpRoomCreate(laccount)$/;"	f
+TcpRoomDestroy	gxlua_chesscard/tcplib/chesstcplib.lua	/^function TcpRoomDestroy(room)$/;"	f
+TcpRoomInfoBrd	gxlua_chesscard/tcplib/chesstcplib.lua	/^function TcpRoomInfoBrd(room, doinfo, data)$/;"	f
+TcpRoomInfoBrdExceptMe	gxlua_chesscard/tcplib/chesstcplib.lua	/^function TcpRoomInfoBrdExceptMe(room, laccount, doinfo, data)$/;"	f
+TcpRoomInfoBrdExceptOne	gxlua_chesscard/tcplib/chesstcplib.lua	/^function TcpRoomInfoBrdExceptOne(room, uid, doinfo, data)$/;"	f
+TcpRoomUserLogout	gxlua_chesscard/tcplib/chesstcplib.lua	/^function TcpRoomUserLogout(roomuser)$/;"	f
+TcpUserRoomIn	gxlua_chesscard/tcplib/chesstcplib.lua	/^function TcpUserRoomIn(room, laccount)$/;"	f
+TcpUserRoomOut	gxlua_chesscard/tcplib/chesstcplib.lua	/^function TcpUserRoomOut(room, laccount)$/;"	f
+DateByFormatDateGet	gxlua_chesscard/util/chessutil.lua	/^function DateByFormatDateGet(date)$/;"	f
+DateDayDistanceByDateGet	gxlua_chesscard/util/chessutil.lua	/^function DateDayDistanceByDateGet(last, current)$/;"	f
+DateDayDistanceByTimeGet	gxlua_chesscard/util/chessutil.lua	/^function DateDayDistanceByTimeGet(lasttime, current)$/;"	f
+FormatDate2Get	gxlua_chesscard/util/chessutil.lua	/^function FormatDate2Get(time)$/;"	f
+FormatDateGet	gxlua_chesscard/util/chessutil.lua	/^function FormatDateGet(seconds,dateformat)$/;"	f
+FormatDayGet	gxlua_chesscard/util/chessutil.lua	/^function FormatDayGet(time)$/;"	f
+FormatDayGet2	gxlua_chesscard/util/chessutil.lua	/^function FormatDayGet2(time)$/;"	f
+RandNNumbers	gxlua_chesscard/util/chessutil.lua	/^function RandNNumbers(max, n) $/;"	f
+StrSplit	gxlua_chesscard/util/chessutil.lua	/^function StrSplit(str, pat)$/;"	f
+TimeByDateGet	gxlua_chesscard/util/chessutil.lua	/^function TimeByDateGet(date)$/;"	f
+TimeBySpecialDateGet	gxlua_chesscard/util/chessutil.lua	/^function TimeBySpecialDateGet(date)$/;"	f
+ZeroTodayTimestampGet	gxlua_chesscard/util/chessutil.lua	/^function ZeroTodayTimestampGet()$/;"	f
+ZeroTodayTimestampGetByTime	gxlua_chesscard/util/chessutil.lua	/^function ZeroTodayTimestampGetByTime(time)$/;"	f
+ZeroWeekTimestampGet	gxlua_chesscard/util/chessutil.lua	/^function ZeroWeekTimestampGet()$/;"	f
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+Do.online_state_change_account 	init.lua	/^	Do.online_state_change_account = function(laccount,oldstate,newstate)$/;"	f
+Server.ServerStop 	init.lua	/^	Server.ServerStop = function()$/;"	f
+Tcp.reconnect_login_ok 	init.lua	/^	Tcp.reconnect_login_ok = function(laccount)$/;"	f
+init	init.lua	/^local function init()$/;"	f
+unilight.response 	init.lua	/^	unilight.response = function(w, req)$/;"	f
