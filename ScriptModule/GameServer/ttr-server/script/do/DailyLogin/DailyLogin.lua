@@ -110,14 +110,19 @@ function DailyLogin:IsTheSameDay()
 end
 
 
-function DailyLogin:Login()
+function DailyLogin:DealWithLogin()
 
     if self.owner == nil then
         print("DailyLogin:Login(), self.owner=false")
         return
     end
 
-    if self:IsTheSameDay() == true then
+    --if self:IsTheSameDay() == true then
+    --    print("DailyLogin:Login(), IsTheSameDay=true, uid="..self.owner.uid)
+    --    return
+    --end
+
+    if ttrutil.IsSameDay(self.owner.lastlogintime,os.time()) == true then
         print("DailyLogin:Login(), IsTheSameDay=true, uid="..self.owner.uid)
         return
     end

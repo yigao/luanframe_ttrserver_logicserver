@@ -115,11 +115,23 @@ function DailySharing:GetDailySharingReward(sharingId)
     return 0, "领取成功", sharingId
 end
 
-function DailySharing:Login()
+function DailySharing:DealWithLogin()
     if ttrutil.IsSameDay(self.owner.lastlogintime,os.time()) == false then
         self.dailyRewardNum = 0
     end
 end
+
+--When 0:00, call
+function DailySharing:dealZeroReset()
+    self.dailyRewardNum = 0
+end
+
+
+
+
+
+
+
 
 
 

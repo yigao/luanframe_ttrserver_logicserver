@@ -41,9 +41,6 @@ Net.CmdUserInfoSynLobbyCmd_C = function(cmd, laccount)
 
 	--只同步客户端需要的数据，UserInfo下面存有服务器需要的数据
 
-	userInfo.dailyLogin:Login()
-	userInfo.dailySharing:Login()
-
 	--处理属性重置
 	UserProps:dealLoginInitProps(userInfo)
 
@@ -99,6 +96,9 @@ Lby.CmdUserInfoLoginCenter_S = function(cmd,lobbyClientTask)
 	UserProps:sendUserLookMediaInfo(userInfo)
 	--下发在线奖励信息
 	UserProps:sendOnlineRandBoxInfo(userInfo)
+	
+	userInfo.dailyLogin:DealWithLogin()
+	userInfo.dailySharing:DealWithLogin()
 	userInfo.dailyDiamondReward:DealWithLogin()
 	userInfo.dailyLotteryDraw:DealWithLogin()
 	userInfo.dailyWelfare:DealWithLogin()

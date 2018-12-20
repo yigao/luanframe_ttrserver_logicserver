@@ -200,10 +200,23 @@ function DailyLotteryDraw:DealWithLogin()
 end
 
 --When 0:00, call
-function DailyLotteryDraw:reset()
-end
+function DailyLotteryDraw:dealZeroReset()
+    if self.owner == nil then
+        return
+    end
 
-function DailyLotteryDraw:addProgress(cond, times)
+    self.drawNum = 0
+    self.rewardId = 0
+
+    local res = {}
+    res["do"] = "Cmd.SendDailyLotteryDrawInfoCmd_S"
+    res["data"] = {
+        drawNum = self.drawNum, --玩家已经抽奖的次数
+        isGotLuckyDraw = self.isGotLuckyDraw, --玩家是否已经抽到幸运奖（百变小萝莉），抽中后切换到奖励奖项
+        dailyLotteryDrawNum = GlobalConst.DailyLotteryDrawNum, --每天抽奖次数上限
+        desc = "每日抽奖信息返回",
+    }
+    unilight.response(self.owner.laccount, res)
 end
 
 
