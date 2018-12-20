@@ -356,9 +356,11 @@ unilight.response = function(w, req)
 	    unilight.debug("[proto send] " .. s)
         return true
     else
-	    req.st = os.time() + unilight.tzoffset()
-	    w.SendString(s)
-	    unilight.debug("[js send] " .. s)
+		req.st = os.time() + unilight.tzoffset()
+		if w ~= nil then
+			w.SendString(s)
+			unilight.debug("[js send] " .. s)
+		end
     end
 
 	if req["do"] == "win-pve-battle" or req["do"] == "sweep-pve-battle" or req["do"] == "lose-pve-battle"  or req["do"] == "end-battle" then

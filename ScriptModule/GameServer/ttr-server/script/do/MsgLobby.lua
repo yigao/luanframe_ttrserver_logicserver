@@ -4,20 +4,11 @@ Net.CmdUserInfoSynLobbyCmd_C = function(cmd, laccount)
 
 	local uid 		= laccount.Id
 
-	local userInfo = UserInfo.GetUserInfoById(uid)
+	local userInfo = UserInfo.GetOrNewUserInfo(uid)
 
 	local isFirstLogin = false
-	if userInfo == nil then
-		local dbUser = unilight.getdata("userinfo", uid)
-
-		if dbUser == nil then
-			userInfo = UserInfo.CreateTempUserInfo(uid)
-			isFirstLogin = true
-		else
-			userInfo = UserInfo.CreateUserByDb(uid, dbUser)
-		end
-
-		UserInfo.GlobalUserInfoMap[uid] = userInfo
+	if userInfo.firstLogin == 1 then
+		isFirstLogin = true
 	end
 
 	--只有从中心服务器成功放回后才算登录成功
@@ -55,7 +46,7 @@ Net.CmdUserInfoSynLobbyCmd_C = function(cmd, laccount)
 		star = userInfo.star,
 		money = userInfo.money,
 		product = userInfo.product,
-		isFirstLogin = isFirstLogin,
+		isFirstLogin = userInfo.firstLogin,
 	}
 	unilobby.SendCmdToLobby("Cmd.UserInfoLoginCenter_C", data) 
 end
@@ -65,6 +56,7 @@ Lby.CmdUserInfoLoginCenter_S = function(cmd,lobbyClientTask)
 	local uid = cmd.data.cmd_uid
 	local friendAddontion = cmd.data.friendAddontion
 	local shield_count = cmd.data.shield_count
+	local isFirstLogin = cmd.data.isFirstLogin
 
 	local userInfo = UserInfo.GetUserInfoById(uid)
 	if userInfo == nil then

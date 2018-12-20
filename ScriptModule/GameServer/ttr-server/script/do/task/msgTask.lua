@@ -269,7 +269,10 @@ Lby.CmdNotifyDailyTaskAddProgress_S = function(cmd, lobbyClientTask)
 		return
     end
 
-    userInfo.dailyTask:addProgress(cmd.data.event, cmd.data.times)        
+    userInfo.dailyTask:addProgress(cmd.data.event, cmd.data.times)
+	if userInfo.online == false then
+		UserInfo:SaveUserInfoToDb(userInfo)
+	end
 end
 
 Lby.CmdNotifyAchieveTaskAddProgress_S = function(cmd, lobbyClientTask)
@@ -281,7 +284,10 @@ Lby.CmdNotifyAchieveTaskAddProgress_S = function(cmd, lobbyClientTask)
 		return
     end
 
-    userInfo.achieveTask:addProgress(cmd.data.event, cmd.data.times)       
+    userInfo.achieveTask:addProgress(cmd.data.event, cmd.data.times)
+	if userInfo.online == false then
+		UserInfo:SaveUserInfoToDb(userInfo)
+	end
 end
 
 Lby.CmdNotifyMainTaskAddProgress_S = function(cmd, lobbyClientTask)
@@ -293,5 +299,8 @@ Lby.CmdNotifyMainTaskAddProgress_S = function(cmd, lobbyClientTask)
 		return
     end
 
-    userInfo.mainTask:addProgress(cmd.data.event, cmd.data.times)       
+    userInfo.mainTask:addProgress(cmd.data.event, cmd.data.times)
+	if userInfo.online == false then
+		UserInfo:SaveUserInfoToDb(userInfo)
+	end
 end

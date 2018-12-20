@@ -31,7 +31,9 @@ function GameServerModule.Init()
     unilight.response = function(w, req)
 		req.st = os.time()
 		local s = table2json(req)
-        w.SendString(s)
+		if w ~= nil then
+			w.SendString(s)
+		end
         
         if type(req["do"]) == "string" then
             if req["do"] == "Cmd.SendUserMoneyCmd_S" then

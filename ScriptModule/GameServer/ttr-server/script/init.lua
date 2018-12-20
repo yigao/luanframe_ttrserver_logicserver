@@ -25,8 +25,10 @@ local function init()
 	unilight.response = function(w, req)
 		req.st = os.time()
 		local s = table2json(req)
-		w.SendString(s)
-		unilight.debug("[send] " .. s)
+		if w ~= nil then
+			w.SendString(s)
+			unilight.debug("[send] " .. s)
+		end
 	end
     Zone = Zone or {}
     Zone.zone_connect = function(cmd, zonetask) 

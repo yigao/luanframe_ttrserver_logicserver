@@ -28,7 +28,7 @@
             "request": "attach",
             "runtimeType": "Cocos2",
             "localRoot": "${workspaceRoot}",
-            "port": 7003,
+            "port": 7004,
             "fileExtNames": [
                 ".lua",
                 ".txt",
