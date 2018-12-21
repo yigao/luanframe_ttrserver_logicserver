@@ -2,8 +2,6 @@ GameServerModule = {}
 
 Tcp = Tcp or {}
 
-GameServerModule.gameserver_linkid = 0
-
 StartOver = StartOver or function()
 
 end
@@ -19,13 +17,13 @@ UserInfo.Update = UserInfo.Update or function()
 end
 
 function GameServerModule.Init()
-    unilight.initmongodb('mongodb://14.17.104.12:28900', "ttr-1")
     Do.dbready()
     
     TcpClient.addRecvCallBack(NF_SERVER_TYPES.NF_ST_PROXY, 0, "GameServerModule.NetServerRecvHandleJson")
     TcpClient.addRecvCallBack(NF_SERVER_TYPES.NF_ST_WORLD, 0, "GameServerModule.WorldServerRecvHandleJson")
 
     unilight.AddServerEventCallBack(NF_SERVER_TYPES.NF_ST_GAME, NF_SERVER_TYPES.NF_ST_WORLD, "GameServerModule.WorldServerNetEvent")
+    unilight.AddAccountEventCallBack(NF_SERVER_TYPES.NF_ST_GAME, "GameServerModule.AccountEventCallBack")
 
     unilight.addtimer("UserInfo.Update", 1)
 
@@ -70,6 +68,19 @@ function GameServerModule.Init()
     end
 
     InitTimer()
+end
+
+function GameServerModule.AccountEventCallBack(nEvent, unLinkId, laccount)
+    if nEvent == NF_ACCOUNT_EVENT_TYPE.eAccountEventType_CONNECTED then
+        go.accountInfoMap[laccount.Id] = laccount
+        Tcp.account_connect(laccount)
+    elseif nEvent == NF_ACCOUNT_EVENT_TYPE.eAccountEventType_DISCONNECTED then
+        Tcp.account_disconnect(laccount)
+        go.accountInfoMap[laccount.Id] = nil
+    elseif nEvent == NF_ACCOUNT_EVENT_TYPE.eAccountEventType_DISCONNECTED then
+        go.accountInfoMap[laccount.Id] = laccount
+        Tcp.reconnect_login_ok(laccount)
+    end
 end
 
 function GameServerModule.WorldServerNetEvent(nEvent, unLinkId, serverData)

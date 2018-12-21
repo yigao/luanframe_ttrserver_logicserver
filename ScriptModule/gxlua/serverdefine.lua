@@ -18,3 +18,10 @@ NF_MSG_TYPE = {
 	eMsgType_DISCONNECTED = 2,
 	eMsgType_RECIVEDATA = 3,
 };
+
+NF_ACCOUNT_EVENT_TYPE = {
+	eAccountEventType_Num = 0,
+	eAccountEventType_CONNECTED = 1,
+	eAccountEventType_DISCONNECTED = 2,
+	eAccountEventType_RECONNECTED = 3,
+}

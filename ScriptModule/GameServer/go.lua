@@ -1,11 +1,7 @@
 go = go or {}
-go.roomusermgr = {
-    
-}
+go.roomusermgr = {}
+go.accountInfoMap = {}
 
 function go.roomusermgr.GetRoomUserById(uid)
-    local pluginManager = LuaNFrame:GetPluginManager()
-    local gameClientModule = pluginManager:GetGameLogicModule()
-
-    return gameClientModule:GetAccount(uid)
+    return go.accountInfoMap[uid]
 end

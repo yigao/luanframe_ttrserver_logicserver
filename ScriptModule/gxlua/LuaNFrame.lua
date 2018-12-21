@@ -466,6 +466,13 @@ function LuaNFrame:AddServerEventCallBack(eSourceType, eTargetType, luaFuncStr)
     self.serverNetEventModule:AddEventCallBack(eSourceType, eTargetType, luaFuncStr)
 end
 
+--serverNetEventModule 注册账号网络回调，主要有玩家连接回调，断线回调，重连回调
+--比如说，luaFuncStr格式：luaFuncStr（uint32_t nEvent, uint32_t unLinkId, NF_SHARE_PTR<AccountInfo> pServerData）
+--
+function LuaNFrame:AddAccountEventCallBack(eServerType, luaFuncStr)
+    self.serverNetEventModule:AddAccountEventCallBack(eServerType, luaFuncStr)
+end
+
 --执行函数, 函数被字符串表达出来
 --比如说，要执行LoginModule.Init函数，
 --LuaNFrame.RunStringFunction("LoginModule.Init")

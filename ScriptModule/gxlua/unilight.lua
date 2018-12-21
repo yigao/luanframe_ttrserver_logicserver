@@ -150,6 +150,13 @@ function unilight.AddServerEventCallBack(eSourceType, eTargetType, luaFuncStr)
     LuaNFrame:AddServerEventCallBack(eSourceType, eTargetType, luaFuncStr)
 end
 
+--serverNetEventModule 注册账号网络回调，主要有玩家连接回调，断线回调，重连回调
+--比如说，luaFuncStr格式：luaFuncStr（uint32_t nEvent, uint32_t unLinkId, NF_SHARE_PTR<AccountInfo> pServerData）
+--
+function unilight.AddAccountEventCallBack(eServerType, luaFuncStr)
+    LuaNFrame:AddAccountEventCallBack(eServerType, luaFuncStr)
+end
+
 unilight.debug = function(...)
 	LuaNFrame:debug(...)
 end
