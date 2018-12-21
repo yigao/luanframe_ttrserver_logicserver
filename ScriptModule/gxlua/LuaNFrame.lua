@@ -5,33 +5,6 @@ CreateClass("LuaNFrame")
 --用来存放加载函数
 LuaNFrame.LoadScriptList = { }
 
-function LuaNFrame:TestLua()
-   
-    local data = {
-        uid = 10000001,
-        age = 15,
-        color = "red",
-        xxx = {
-            a = 1,
-            b = 2,
-            c = {
-                a = 1,
-                b = 2,
-            }
-        }
-    }
-    self:savedata("test", data)
-
-    local ret = self:getdata("test", data.uid)
-    print("ret:"..json.encode(ret))
-
-    local xx = self:savefield("test", data.uid, "xxx.c", {a = 2, b = 4, c = 5})
-
-    local yy = self:getfield("test", data.uid, "xxx")
-end
-
-
-
 function LuaNFrame:init(pluginManager)
 
     self.pluginManager = pluginManager
@@ -47,6 +20,7 @@ function LuaNFrame:init(pluginManager)
     self.httpClientModule = self.pluginManager:GetHttpClientModule()
     self.httpServerModule = self.pluginManager:GetHttpServerModule()
     self.mongoModule = self.pluginManager:GetMongoModule()
+    self.serverNetEventModule = self.pluginManager:GetServerNetEventModule()
 
     --用来存放加载的module
     self.ScriptList = { }
@@ -303,7 +277,7 @@ end
 ]]
 function LuaNFrame:getAll(name)
     local data = self.mongoModule:FindAll(0, name)
-    return json.decode(data)
+    return json2table(data)
 end
 
 --获得服务器开启时间，单位s
@@ -483,6 +457,13 @@ function LuaNFrame:HttpServerResponseMsg(serverType, req, strMsg, code, reason)
     end
 
     self.httpServerModule:ResponseMsg(req, strMsg, code, reason)
+end
+
+--serverNetEventModule 注册服务器与服务器之间的网络回调，主要有连接回调，断线回调
+--比如说，luaFuncStr格式：luaFuncStr（eMsgType nEvent, uint32_t unLinkId, NF_SHARE_PTR<NFServerData> pServerData）
+--
+function LuaNFrame:AddServerEventCallBack(eSourceType, eTargetType, luaFuncStr)
+    self.serverNetEventModule:AddEventCallBack(eSourceType, eTargetType, luaFuncStr)
 end
 
 --执行函数, 函数被字符串表达出来
