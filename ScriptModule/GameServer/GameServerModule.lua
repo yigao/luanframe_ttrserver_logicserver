@@ -17,7 +17,8 @@ UserInfo.Update = UserInfo.Update or function()
 end
 
 function GameServerModule.Init()
-    Do.dbready()
+    unilight.createdb("userinfo","uid")						-- 玩家个人信息
+    unilight.createdb(mailsys.MAIL_DB, "uid")
     
     TcpClient.addRecvCallBack(NF_SERVER_TYPES.NF_ST_PROXY, 0, "GameServerModule.NetServerRecvHandleJson")
     TcpClient.addRecvCallBack(NF_SERVER_TYPES.NF_ST_WORLD, 0, "GameServerModule.WorldServerRecvHandleJson")
@@ -60,14 +61,16 @@ function GameServerModule.Init()
 		unilight.debug("游戏玩家断线重连了。。。。。。。。。。。。。")
         UserInfo.ReconnectLoginOk(laccount)
     end
+
+    if rechargemgr ~= nil then
+        rechargemgr.Init()
+    end
     
     --StartOver()
     --初始化玩家系统
     if UserInfo ~= nil then
         UserInfo.Init()
     end
-
-    InitTimer()
 end
 
 function GameServerModule.AccountEventCallBack(nEvent, unLinkId, laccount)

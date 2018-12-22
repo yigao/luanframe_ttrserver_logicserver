@@ -6,9 +6,6 @@ Do.dbready = function()
 		Index = Index + 1
 
 		unilight.createdb("userinfo","uid")						-- 玩家个人信息
-		unilight.createdb("friendinfo","uid")					-- 玩家好友信息
-		unilight.createdb("userQQAppId", "uid")					-- 玩家QQAPPID信息
-		unilight.createdb("ranklist", "uid")					-- 排行榜数据库信息
 		unilight.createdb(mailsys.MAIL_DB, "uid")
 
 		if rechargemgr ~= nil then
